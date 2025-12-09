@@ -1,0 +1,51 @@
+---
+import { FaFacebookSquare, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import NavigationTree from '../atoms/NavigationTree.astro';
+
+export const SOCIAL_LINKS = [
+  {
+    Icon: FaLinkedin,
+    href: 'https://www.linkedin.com/company/50323414/',
+    ariaLabel: 'Vers la page LinkedIn de Code Rouge Info'
+  },
+  {
+    Icon: FaInstagram,
+    href: 'https://www.instagram.com/coderougeinfo.fr/',
+    ariaLabel: 'Vers la page Instagram de Code Rouge Info'
+  },
+  {
+    Icon: FaFacebookSquare,
+    href: 'https://www.facebook.com/profile.php?id=61573753883070',
+    ariaLabel: 'Vers la page Facebook de Code Rouge Info'
+  }
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer
+  class="footer flex flex-col mt-auto bg-rolling-stone-900 text-white items-center justify-center h-auto px-28 py-8 space-y-8 text-xs"
+>
+  <section class="flex justify-between w-full items-center">
+    <p>Logo Code Rouge Info</p>
+    <NavigationTree />
+  </section>
+  <div class="divider border border-white w-full"></div>
+  <section class="flex items-center justify-between w-full">
+    <p>&copy; {year} Code Rouge Info - Tous droits réservés</p>
+    <div class="flex gap-4">
+      {
+        SOCIAL_LINKS.map((link) => (
+          <a
+            href={link.href}
+            target="_blank"
+            aria-label={link.ariaLabel}
+            class="text-white text-2xl hover:text-red-600 transition-colors"
+          >
+            {<link.Icon />}
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</footer>

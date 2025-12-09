@@ -1,0 +1,17 @@
+---
+import type { NavLinkInterface } from '../@types/types';
+
+const _NAV_LINKS: NavLinkInterface[] = [
+  { label: 'Accueil', path: '' },
+  { label: "L'association", path: 'association/a-propos' },
+  { label: 'Prévention', path: 'prevention' },
+  { label: 'Reportages', path: 'reportages' }, // activités
+  { label: 'Contact', path: 'contact' }
+];
+---
+
+<nav
+  class="navbar flex w-1/2 bg-rolling-stone-900 h-full justify-around items-center"
+>
+  {_NAV_LINKS.map((link) => <a href={`/${link.path}`}>{link.label}</a>)}
+</nav>
