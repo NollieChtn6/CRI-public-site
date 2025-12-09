@@ -14,7 +14,7 @@ export default function NavBar() {
     { label: "Contact", path: "contact" },
   ];
   return (
-    <nav>
+    <nav className="navbar flex w-1/2 bg-rolling-stone-900 h-full justify-around items-center">
       {_NAV_LINKS.map((link) => (
         <NavButton key={link.path} path={`${link.path}`} label={link.label} />
       ))}
