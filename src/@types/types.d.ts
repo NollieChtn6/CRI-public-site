@@ -7,6 +7,7 @@ export interface SectionInterface {
 export interface PageInterface {
   label: string;
   path: string;
+  description?: string;
 }
 
 export interface NavLinkInterface {

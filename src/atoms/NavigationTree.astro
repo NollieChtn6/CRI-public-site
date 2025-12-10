@@ -1,5 +1,6 @@
 ---
 import type { SectionInterface } from '../@types/types';
+import { convertToSmartApostrophe } from '@/utils/formatText';
 
 const NAV_TREE: SectionInterface[] = [
   {
@@ -34,9 +35,13 @@ const NAV_TREE: SectionInterface[] = [
   {
     NAV_TREE.map((section) => (
       <div class="flex flex-col space-y-2">
-        <h3 class="page-label font-semibold">{section.label}</h3>
+        <h3 class="page-label font-semibold">
+          {convertToSmartApostrophe(section.label)}
+        </h3>
         {section.pages?.map((page) => (
-          <a href={`/${section.path}/${page.path}`}>{page.label}</a>
+          <a href={`/${section.path}/${page.path}`}>
+            {convertToSmartApostrophe(page.label)}
+          </a>
         ))}
       </div>
     ))
