@@ -1,6 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
-  "extends": ["biome-config-astro"],
+  "files": {
+    "includes": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+  },
   "linter": {
     "enabled": true,
     "rules": {
