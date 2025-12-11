@@ -33,6 +33,11 @@ const NAV_LINKS: SectionInterface[] = [
         path: "recrutement",
         description: "Rejoignez notre équipe en tant que bénévole.",
       },
+      {
+        label: "Nous soutenir",
+        path: "nous-soutenir",
+        description: "Soutenez notre association et nos actions.",
+      },
     ],
   },
   {
