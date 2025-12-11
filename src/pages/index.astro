@@ -1,7 +1,30 @@
 ---
+import PublicationsSection from '@/components/PublicationsSection.astro';
+import GalleriesSection from '@/components/GalleriesSection.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <div>Page d'accueil du site de Code Rouge Info</div>
+  <section class="hero-section grid grid-cols-2 px-16">
+    <div class="flex flex-col justify-center space-y-8 h-[600px]">
+      <h1>Code Rouge Info</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        tincidunt iaculis tempus. Vestibulum consectetur maximus enim, fermentum
+        blandit orci finibus eget. Sed gravida fringilla condimentum.
+      </p>
+      <div>
+        <a href="association/a-propos" class="navButton">Notre histoire</a>
+      </div>
+    </div>
+    <div class="items-center flex justify-center">
+      <img
+        src="https://picsum.photos/650/450"
+        alt="Hero Image"
+        class="object-cover rounded-lg"
+      />
+    </div>
+  </section>
+  <PublicationsSection />
+  <GalleriesSection />
 </Layout>
