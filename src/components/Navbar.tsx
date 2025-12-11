@@ -80,12 +80,12 @@ export default function Navbar() {
         {NAV_LINKS.map((link) => (
           <NavigationMenuItem key={link.label}>
             {!link.pages ? (
-              <NavigationMenuLink href={`/${link.path}`} className={navigationMenuTriggerStyle()}>
-                {link.label}
+              <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} navbarLink`}>
+                <a href={`/${link.path}`}>{link.label}</a>
               </NavigationMenuLink>
             ) : (
               <>
-                <NavigationMenuTrigger>
+                <NavigationMenuTrigger className="navbarLink">
                   {convertToSmartApostrophe(link.label)}
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="">
