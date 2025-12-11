@@ -1,7 +1,7 @@
 ---
 export interface PartnerCardProps {
   name: string;
-  website: string;
+  website: string | null;
   logo: string;
 }
 
@@ -12,15 +12,22 @@ const { name, website, logo } = Astro.props as PartnerCardProps;
   class="partner-card flex flex-col items-center text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow"
 >
   <img src={logo} alt={name} class="h-24 w-auto object-contain mb-2" />
-  <a
-    href={website}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="block"
-    title={`Consulter le site du partenaire : ${website}`}
-  >
-    <span class="text-sm font-medium text-gray-800 hover:text-blue-600"
-      >{name}</span
-    >
-  </a>
+
+  {
+    website ? (
+      <a
+        href={website}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block"
+        title={`Consulter le site du partenaire : ${website}`}
+      >
+        <span class="text-sm font-medium text-gray-800 hover:text-blue-600">
+          {name}
+        </span>
+      </a>
+    ) : (
+      <p class="text-sm font-medium text-gray-800">{name}</p>
+    )
+  }
 </article>
