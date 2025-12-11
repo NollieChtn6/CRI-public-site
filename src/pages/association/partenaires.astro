@@ -1,7 +1,24 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import PartnerCard from '@/components/PartnerCard.astro';
+import partners from '../../data/partners.json';
 ---
 
 <Layout>
-  <div>Page des partenaires de Code Rouge Info</div>
+  <section class="">
+    <h1 class="text-3xl font-bold">Nos Partenaires</h1>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-center items-center"
+    >
+      {
+        partners.map((partner) => (
+          <PartnerCard
+            name={partner.name}
+            website={partner.website}
+            logo={partner.logo}
+          />
+        ))
+      }
+    </div>
+  </section>
 </Layout>

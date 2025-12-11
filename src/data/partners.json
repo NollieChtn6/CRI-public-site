@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Centre Hospitalier William Morey",
+    "website": "https://ch-chalon71.fr/",
+    "logo": "https://ch-chalon71.fr/wp-content/themes/Interlude/img/logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Centre Hospitalier de Bourg-en-Bresse",
+    "website": "https://www.ch-bourg-en-bresse.fr/",
+    "logo": "https://www.ch-bourg-en-bresse.fr/wp-content/uploads/2021/07/logo-CHB.png"
+  },
+  {
+    "id": 3,
+    "name": "Fédération des Secouristes Français Croix Blanche",
+    "website": "https://www.croixblanche.org/",
+    "logo": "https://www.croixblanche.org/wp-content/uploads/2025/09/Logo_banniere_fede_2023.png"
+  },
+  {
+    "id": 4,
+    "name": "Protection Civile de la Saône-et-Loire",
+    "website": "https://saone-et-loire.protection-civile.org/",
+    "logo": "https://saone-et-loire.protection-civile.org/wp-content/uploads/sites/36/2020/10/saone-et-loire-bleu-02.png"
+  },
+  {
+    "id": 5,
+    "name": "BalyTech",
+    "website": "https://www.balytech.com/",
+    "logo": "https://www.balytech.com/wp-content/uploads/2020/10/LOGO-LONG-DETOURE-3.png"
+  },
+  {
+    "id": 6,
+    "name": "Secours Expo",
+    "website": "https://www.secours-expo.com/",
+    "logo": "https://api-frontassets.inwink.com/event/8d950325-ba94-f011-b485-002248809e1d/asset/194b1a7d-8d97-f011-b485-6045bd9d3cad/file/secours_expo_logo-trim-02"
+  },
+  {
+    "id": 7,
+    "name": "Extraction Challenge 2018",
+    "website": null,
+    "logo": "https://www.velodrome-national.com/uploads/images/1116_extraction-challenge-merci-slider-hp-site.png"
+  },
+  {
+    "id": 8,
+    "name": "Info Chalon",
+    "website": "https://www.info-chalon.com/",
+    "logo": "https://www.info-chalon.com/w-xl/media/0IMAGES/articles/LOGOINFOS.jpg"
+  },
+  {
+    "id": 9,
+    "name": "MSA The Safety",
+    "website": "https://fr.msasafety.com/",
+    "logo": "https://upload.wikimedia.org/wikipedia/fr/3/3f/Logo_MSA.svg"
+  },
+  {
+    "id": 10,
+    "name": "Instavox",
+    "website": "https://www.instavox.fr/",
+    "logo": "https://www.instavox.fr/wp-content/uploads/2023/03/Logo-Instavox-Bleu-255.png"
+  }
+]
