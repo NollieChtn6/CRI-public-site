@@ -1,6 +1,9 @@
 ---
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+
+import '../styles/normalize.css';
+import '../styles/global.css';
 ---
 
 <!doctype html>
@@ -11,8 +14,6 @@ import Header from '../components/Header.astro';
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="generator" content={Astro.generator} />
     <title>Code Rouge Info</title>
-    <link rel="stylesheet" href="/src/styles/normalize.css" />
-    <link rel="stylesheet" href="/src/styles/global.css" />
   </head>
   <body>
     <div class="flex flex-col min-h-screen max-h-screen overflow-hidden">

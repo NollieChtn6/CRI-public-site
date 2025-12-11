@@ -11,6 +11,9 @@ export default defineConfig({
   integrations: [react()],
 
   vite: {
+    css: {
+      transformer: "lightningcss",
+    },
     plugins: [tailwindcss()],
   },
 
@@ -19,6 +22,8 @@ export default defineConfig({
     "/prevention": "/prevention/bonnes-pratiques",
     "/reportages": "/reportages/articles",
   },
+
+  output: "server",
 
   adapter: vercel()
 });
