@@ -1,0 +1,52 @@
+[
+  {
+    "id": "gallery-2025-07-15-cronat",
+    "title": "Feu de cultures à Cronat",
+    "slug": "feu-de-cultures-cronat-2025-07-15",
+    "department": 71,
+    "date": "2025-07-15",
+    "author": "Colomban PERREAUT",
+    "description": "Des terres agricoles en proie aux flammes sur la commune de Cronat (71).",
+    "content": "En milieu d'après-midi, un incendie se déclare sur une parcelle agricole favorisée par un vent sur zone. D'importants moyens du SDIS 71, avec le renfort des Sapeurs-Pompiers de la Nièvre, sont mobilisés pour combattre les flammes qui se propagent aux champs voisins. Plus de 60 soldats du feu encerclent ce feu dont la progression sera stoppée en fin d’après-midi avec l’aide des agriculteurs.",
+    "category": "sapeurs-pompiers",
+    "images": [
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/07/DSC_1485.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/07/DSC_1538.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/07/DSC_1500.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  },
+  {
+    "id": "gallery-2025-09-12-yutz",
+    "title": "Feu d'espace vert à Yutz",
+    "slug": "feu-espace-vert-yutz-2025-09-12",
+    "department": 57,
+    "date": "2025-09-12",
+    "author": "Lucas SAINGERY",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "content": "Alors que notre reporter est présent sur un feu de cabanon, la Police Municipale de Yutz (57) est appelée pour un feu de friche dans la ville. À leur arrivée, ils sont confrontés à un feu le long des voies ferrées. Un engin incendie se présentera quelques instants après pour débuter l'extinction.",
+    "category": "sapeurs-pompiers",
+    "images": [
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/04/SAI_7755.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/04/SAI_7808-1024x683.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "url": "https://coderougeinfo.fr/wp-content/uploads/2025/04/SAI_7787.jpg",
+        "caption": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  }
+]
