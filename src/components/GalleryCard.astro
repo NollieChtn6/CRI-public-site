@@ -1,0 +1,26 @@
+---
+import { IoArrowForward } from 'react-icons/io5';
+
+const ArrowIcon = IoArrowForward;
+const { title, description, image, slug, author, category, department } =
+  Astro.props;
+---
+
+<article
+  class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
+>
+  <img src={image} alt={title} class="w-full h-52 object-cover" />
+
+  <div class="p-4 space-y-2">
+    <h3 class="text-lg font-semibold line-clamp-2">{title} ({department})</h3>
+    <p class="text-sm text-gray-600">Par {author}</p>
+    <p class="text-sm text-gray-600 line-clamp-3">{description}</p>
+  </div>
+
+  <div class="flex justify-end p-4">
+    <a href={`/reportages/${category}/${slug}`} class="cta-button">
+      <span>Voir le reportage</span>
+      <ArrowIcon />
+    </a>
+  </div>
+</article>
