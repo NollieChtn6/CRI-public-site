@@ -1,20 +1,21 @@
 ---
 import { formatDate } from '@/utils/formatDate';
 import { IoArrowForward } from 'react-icons/io5';
-export interface ArticleCardProps {
-  title: string;
-  summary: string;
-  image: string;
-  slug: string;
-}
+import type { ArticleInterface } from '@/@types/types';
+
 const ArrowIcon = IoArrowForward;
-const { title, summary, image, slug, date } = Astro.props;
+const { title, summary, coverPictureUrl, coverPictureAlt, slug, date } =
+  Astro.props as ArticleInterface;
 ---
 
 <article
   class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
 >
-  <img src={image} alt={title} class="w-full h-52 object-cover" />
+  <img
+    src={coverPictureUrl}
+    alt={coverPictureAlt}
+    class="w-full h-52 object-cover"
+  />
 
   <div class="p-4 space-y-2">
     <h3 class="text-lg font-semibold line-clamp-2">{title}</h3>
@@ -22,7 +23,7 @@ const { title, summary, image, slug, date } = Astro.props;
     <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
   </div>
   <div class="flex justify-end p-4">
-    <a href={`/articles/${slug}`} class="cta-button">
+    <a href={`/reportages/articles/${slug}`} class="cta-button">
       <span>Lire la suite</span>
       <ArrowIcon /></a
     >
