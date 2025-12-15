@@ -18,11 +18,13 @@ const latestGalleries = [...galleries]
           <GalleryCard
             title={gallery.title}
             description={gallery.description}
-            image={gallery.pictures[0].url}
+            pictures={gallery.pictures}
             slug={gallery.slug}
-            author={gallery.authors.join(', ')}
-            category={gallery.tag}
+            authors={gallery.authors}
+            tag={gallery.tag}
             department={gallery.department}
+            date={gallery.date}
+            category={gallery.tag}
           />
         ))
       }
