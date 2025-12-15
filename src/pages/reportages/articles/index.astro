@@ -1,8 +1,8 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro';
 import ArticleItem from '@/components/articles/ArticleItem.astro';
 
-import articles from '../../data/articles.json';
+import articles from '@/data/articles.json';
 
 const sortedArticles = articles.sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
