@@ -4,7 +4,7 @@ import { IoArrowForward } from 'react-icons/io5';
 import type { ArticleInterface } from '@/@types/types';
 
 const ArrowIcon = IoArrowForward;
-const { title, summary, coverPictureUrl, coverPictureAlt, slug, date } =
+const { title, slug, date, summary, coverPictureUrl, coverPictureAlt } =
   Astro.props as ArticleInterface;
 ---
 
@@ -15,6 +15,7 @@ const { title, summary, coverPictureUrl, coverPictureAlt, slug, date } =
     src={coverPictureUrl}
     alt={coverPictureAlt}
     class="w-full h-52 object-cover"
+    loading="lazy"
   />
 
   <div class="p-4 space-y-2">
