@@ -27,6 +27,12 @@ export interface ArticleInterface {
   coverPictureUrl: string;
   coverPictureAlt: string;
   content: string;
+  pictures: ArticlePicture[];
+}
+
+export interface ArticlePicture {
+  url: string;
+  alt: string;
 }
 
 export interface GalleryInterface {
