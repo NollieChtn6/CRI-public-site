@@ -8,7 +8,8 @@
     "endMonth": null,
     "endYear": null,
     "title": "Création du projet Code Rouge",
-    "text": "Le projet Code Rouge a été créé le 10 mars 2015 par Stefan Amarica. Dès son origine, sa vocation principale est de faire découvrir au grand public les services de secours et d'urgence, qu'ils soient professionnels ou bénévoles, et de promouvoir leur action."
+    "text": "Le projet Code Rouge a été créé le 10 mars 2015 par Stefan Amarica. Dès son origine, sa vocation principale est de faire découvrir au grand public les services de secours et d'urgence, qu'ils soient professionnels ou bénévoles, et de promouvoir leur action.",
+    "iconName": "FaRocket"
   },
   {
     "id": "timeline-2015-partner-samu",
@@ -19,43 +20,83 @@
     "endMonth": null,
     "endYear": null,
     "title": "Première convention avec SAMU 71",
-    "text": "Première convention de partenariat avec le SAMU 71."
+    "text": "Première convention de partenariat avec le SAMU 71.",
+    "iconName": "FaHandshake"
   },
   {
-    "id": "timeline-2016",
+    "id": "timeline-2016-creation-association",
     "startDay": null,
     "startMonth": null,
     "startYear": 2016,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Déclaration et premières couvertures",
-    "text": "Déclaration de création de l'association loi 1901 au RNA. Première couverture du salon Secours Expo, première couverture du salon Eurosatory, couverture des premiers feux de forêt."
+    "title": "Déclaration de création de l'association",
+    "text": "Déclaration de création de l'association loi 1901 au RNA. L'association avait pour objet de porter une structure de presse consacrée au monde de l'urgence et du secours et de faire découvrir et promouvoir ces sujets auprès du grand public.",
+    "iconName": "FaRegBuilding"
   },
   {
-    "id": "timeline-2017",
+    "id": "timeline-2016-salons",
+    "startDay": null,
+    "startMonth": null,
+    "startYear": 2016,
+    "endDay": null,
+    "endMonth": null,
+    "endYear": null,
+    "title": "Premières couvertures de salons et feux de forêt",
+    "text": "Première couverture du salon Secours Expo, du salon Eurosatory et des premiers feux de forêt.",
+    "iconName": "FaCalendarCheck"
+  },
+  {
+    "id": "timeline-2017-collaboration-croix-rouge",
     "startDay": null,
     "startMonth": null,
     "startYear": 2017,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Collaboration et partenariats",
-    "text": "Collaboration avec la Croix-Rouge française de Saône-et-Loire dans le cadre d'un reportage sur un dispositif prévisionnel de secours. Première couverture du salon Milipol Paris. Convention de partenariat avec le Centre Hospitalier William Morey de Chalon-sur-Saône. Partenariat avec l'entreprise Or-Equipement."
+    "title": "Collaboration avec la Croix-Rouge",
+    "text": "Collaboration avec la Croix-Rouge française de Saône-et-Loire dans le cadre d'un reportage sur un dispositif prévisionnel de secours.",
+    "iconName": "FaUsers"
   },
   {
-    "id": "timeline-2018",
+    "id": "timeline-2017-salons",
+    "startDay": null,
+    "startMonth": null,
+    "startYear": 2017,
+    "endDay": null,
+    "endMonth": null,
+    "endYear": null,
+    "title": "Première couverture Milipol Paris",
+    "text": "Première couverture du salon Milipol Paris et convention de partenariat avec le Centre Hospitalier William Morey et Or-Equipement.",
+    "iconName": "FaCalendarAlt"
+  },
+  {
+    "id": "timeline-2018-modif-statuts",
     "startDay": null,
     "startMonth": null,
     "startYear": 2018,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Modifications statutaires et médias",
-    "text": "Première modification statutaire, partenaire média exclusif du salon Secours Expo, accréditation média par l'Élysée pour le 14 juillet à Paris, partenariat avec LHD Group France, partenariat média exclusif SDIS 78 pour l'Extraction Challenge 2018."
+    "title": "Modification statutaire",
+    "text": "L'association a modifié ses statuts pour inclure le soutien aux services de secours et actions de communication.",
+    "iconName": "FaCertificate"
   },
   {
-    "id": "timeline-2019",
+    "id": "timeline-2018-partenariat-media",
+    "startDay": null,
+    "startMonth": null,
+    "startYear": 2018,
+    "endDay": null,
+    "endMonth": null,
+    "endYear": null,
+    "title": "Partenariats médias et accréditations",
+    "text": "Partenaire média exclusif du salon Secours Expo, accréditation média par l'Élysée pour le 14 juillet, et partenariat média avec SDIS 78 pour l'Extraction Challenge 2018.",
+    "iconName": "FaCamera"
+  },
+  {
+    "id": "timeline-2019-conventions",
     "startDay": null,
     "startMonth": null,
     "startYear": 2019,
@@ -63,83 +104,103 @@
     "endMonth": null,
     "endYear": null,
     "title": "Conventions de partenariat équipement",
-    "text": "Convention de partenariat équipement avec HAIX, MSA Safety et le Centre Hospitalier de Bourg-en-Bresse."
+    "text": "Conventions de partenariat équipement avec HAIX, MSA Safety et le Centre Hospitalier de Bourg-en-Bresse.",
+    "iconName": "FaTools"
   },
   {
-    "id": "timeline-2020",
+    "id": "timeline-2020-couverture-uiisc",
     "startDay": null,
     "startMonth": null,
     "startYear": 2020,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "UIISC 7 et crise sanitaire",
-    "text": "Couverture de l'UIISC 7 lors de ses Journées Portes Ouvertes. Partenariat avec l'entreprise Ogma pour équiper nos bénévoles de masques lors de la crise sanitaire."
+    "title": "Couverture UIISC 7",
+    "text": "Couverture des Journées Portes Ouvertes et partenariat avec Ogma pour équiper nos bénévoles de masques lors de la crise sanitaire.",
+    "iconName": "FaFireAlt"
   },
   {
-    "id": "timeline-2021",
+    "id": "timeline-2021-partenariats",
     "startDay": null,
     "startMonth": null,
     "startYear": 2021,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Conventions multiples",
-    "text": "Convention de partenariat avec le parc du Puy Du Fou, la Croix-Rouge française de la Haute-Savoie, convention de reportage avec la Gendarmerie Nationale et durant l'exercice HULL-21."
+    "title": "Partenariats 2021",
+    "text": "Conventions avec Puy Du Fou, Croix-Rouge Haute-Savoie, Gendarmerie Nationale et exercice HULL-21.",
+    "iconName": "FaShieldAlt"
   },
   {
-    "id": "timeline-2022",
+    "id": "timeline-2022-annecy",
     "startDay": null,
     "startMonth": null,
     "startYear": 2022,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Convention de reportage Annecy",
-    "text": "Convention de reportage avec le Centre Hospitalier Annecy Genevois."
+    "title": "Convention Centre Hospitalier Annecy Genevois",
+    "text": "Convention de reportage avec le Centre Hospitalier Annecy Genevois.",
+    "iconName": "FaHospital"
   },
   {
-    "id": "timeline-2023",
+    "id": "timeline-2023-reorientation",
     "startDay": null,
     "startMonth": null,
     "startYear": 2023,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Nouvelle orientation",
-    "text": "Nouvelle orientation de l'association pour sensibiliser la population aux risques, promouvoir les acteurs de la Sécurité civile et valoriser leurs missions via photo et vidéo. Conventions avec Gendarmerie Nationale Haute-Savoie, Fédération des Secouristes Français Croix Blanche, Police Nationale Chalon-sur-Saône, exercice ORION-21."
+    "title": "Nouvelle orientation de l'association",
+    "text": "L'association a élargi ses activités pour sensibiliser aux risques, promouvoir les acteurs de la Sécurité civile et valoriser leurs missions via la photographie et la vidéographie.",
+    "iconName": "FaCamera"
   },
   {
-    "id": "timeline-2024",
+    "id": "timeline-2023-partenariats",
+    "startDay": null,
+    "startMonth": null,
+    "startYear": 2023,
+    "endDay": null,
+    "endMonth": null,
+    "endYear": null,
+    "title": "Partenariats 2023",
+    "text": "Conventions avec Gendarmerie Nationale Haute-Savoie, Fédération des Secouristes Français Croix Blanche, Police Nationale Chalon-sur-Saône, exercice ORION-21.",
+    "iconName": "FaHandshake"
+  },
+  {
+    "id": "timeline-2024-partenariats",
     "startDay": null,
     "startMonth": null,
     "startYear": 2024,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Partenariats récents",
-    "text": "Convention de partenariat avec la Protection Civile de Saône-et-Loire et StandBy."
+    "title": "Partenariats 2024",
+    "text": "Conventions avec Protection Civile Saône-et-Loire et StandBy.",
+    "iconName": "FaUserShield"
   },
   {
-    "id": "timeline-2025",
+    "id": "timeline-2025-conventions",
     "startDay": null,
     "startMonth": null,
     "startYear": 2025,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Re-conduction d'accords",
-    "text": "Re-conduction de la convention de partenariat avec la Fédération des Secouristes Français Croix Blanche [pas encore signé]."
+    "title": "Conventions 2025",
+    "text": "Re-conduction de la convention avec la Fédération des Secouristes Français Croix Blanche [pas encore signé].",
+    "iconName": "FaHandshake"
   },
   {
-    "id": "timeline-2026",
+    "id": "timeline-2026-conventions",
     "startDay": null,
     "startMonth": null,
     "startYear": 2026,
     "endDay": null,
     "endMonth": null,
     "endYear": null,
-    "title": "Conventions à venir",
-    "text": "Convention de partenariat équipement avec BalyTech, convention tripartite avec la Préfecture de Saône-et-Loire et le SDIS de Saône-et-Loire, convention de partenariat avec le SDIS de Saône-et-Loire [pas encore signé]."
+    "title": "Conventions 2026",
+    "text": "Conventions avec BalyTech, Préfecture & SDIS Saône-et-Loire [pas encore signé].",
+    "iconName": "FaTools"
   }
 ]

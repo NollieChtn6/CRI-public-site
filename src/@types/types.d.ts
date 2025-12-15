@@ -1,3 +1,5 @@
+import type { IconType } from "react-icons/lib";
+
 export interface SectionInterface {
   label: string;
   path: string;
@@ -56,5 +58,6 @@ export interface TimelineCardProps {
   endYear: number | null;
   title: string;
   text: string;
-  iconName?: string;
+  iconName: string;
+  Icon?: IconType;
 }
