@@ -58,5 +58,11 @@
     "name": "Instavox",
     "website": "https://www.instavox.fr/",
     "logo": "https://www.instavox.fr/wp-content/uploads/2023/03/Logo-Instavox-Bleu-255.png"
+  },
+  {
+    "id": 11,
+    "name": "StandBy",
+    "website": "https://standbygroup.com",
+    "logo": "https://standbygroup.com/app/themes/standbygroup/dist/images/logo--france_c277b0da.svg"
   }
 ]
