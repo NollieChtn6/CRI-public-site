@@ -16,10 +16,12 @@ const latestArticles = [...articles]
         latestArticles.map((article) => (
           <ArticleCard
             title={article.title}
-            summary={article.summary}
-            image={article['cover-picture-url']}
             slug={article.slug}
+            author={article.author}
             date={article.date}
+            summary={article.summary}
+            coverPictureUrl={article.coverPictureUrl}
+            coverPictureAlt={article.coverPictureAlt}
           />
         ))
       }

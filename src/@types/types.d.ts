@@ -24,9 +24,15 @@ export interface ArticleInterface {
   author: string;
   date: string;
   summary: string;
-  "cover-picture-url": string;
-  "cover-picture-alt": string;
+  coverPictureUrl: string;
+  coverPictureAlt: string;
   content: string;
+  pictures: ArticlePicture[];
+}
+
+export interface ArticlePicture {
+  url: string;
+  alt: string;
 }
 
 export interface GalleryInterface {
