@@ -1,0 +1,20 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import type { GalleryInterface } from '@/@types/types';
+import GalleryItem from '@/components/galleries/GalleryItem.astro';
+import galleries from '@/data/galleries.json';
+
+const filteredGalleries: GalleryInterface[] = galleries.filter(
+  (gallery: GalleryInterface) => gallery.tag === 'sapeurs-pompiers'
+);
+---
+
+<Layout>
+  <h1>Sapeurs-pompiers</h1>
+  <p>
+    Bienvenue dans la section dédiée aux reportages sur les sapeurs-pompiers.
+  </p>
+  <div class="space-y-8">
+    {galleries.map((gallery) => <GalleryItem {...gallery} />)}
+  </div>
+</Layout>

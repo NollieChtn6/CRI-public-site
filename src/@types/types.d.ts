@@ -27,10 +27,10 @@ export interface ArticleInterface {
   coverPictureUrl: string;
   coverPictureAlt: string;
   content: string;
-  pictures: ArticlePicture[];
+  pictures: Picture[];
 }
 
-export interface ArticlePicture {
+export interface Picture {
   url: string;
   alt: string;
 }
@@ -41,16 +41,11 @@ export interface GalleryInterface {
   slug: string;
   department: number;
   date: string;
-  author: string;
+  authors: string[];
   description: string;
   content: string;
-  category: string;
-  images: GalleryImage[];
-}
-
-export interface GalleryImage {
-  url: string;
-  caption: string;
+  tag: string;
+  pictures: Picture[];
 }
 
 export interface TimelineCardProps {

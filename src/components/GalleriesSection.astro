@@ -18,18 +18,22 @@ const latestGalleries = [...galleries]
           <GalleryCard
             title={gallery.title}
             description={gallery.description}
-            image={gallery.images[0].url}
+            pictures={gallery.pictures}
             slug={gallery.slug}
-            author={gallery.author}
-            category={gallery.category}
+            authors={gallery.authors}
+            tag={gallery.tag}
             department={gallery.department}
+            date={gallery.date}
+            category={gallery.tag}
           />
         ))
       }
     </div>
 
     <div class="flex justify-center pt-4">
-      <a href="/reportages" class="navButton">Voir tous les reportages</a>
+      <a href="/reportages/galeries" class="navButton"
+        >Voir tous les reportages</a
+      >
     </div>
   </div>
 </section>

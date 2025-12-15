@@ -1,0 +1,16 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import galleries from '@/data/galleries.json';
+import GalleryItem from '@/components/galleries/GalleryItem.astro';
+---
+
+<Layout>
+  <h1>Galeries photo</h1>
+  <p>
+    Découvrez nos reportages photo couvrant divers événements et interventions.
+  </p>
+
+  <div class="space-y-8">
+    {galleries.map((gallery) => <GalleryItem {...gallery} />)}
+  </div>
+</Layout>
