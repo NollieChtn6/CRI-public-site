@@ -1,9 +1,109 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { FiExternalLink } from 'react-icons/fi';
+
+const ExternalLinkIcon = FiExternalLink;
 ---
 
 <Layout>
-  <div class="space-y-4">
-    <h2>Soutenir Code Rouge Info</h2>
-  </div>
+  <section class="max-w-5xl mx-auto px-4 py-16 space-y-16">
+    <header class="text-center space-y-6">
+      <h1 class="text-4xl font-bold">Soutenir Code Rouge Info</h1>
+
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Aidez-nous à poursuivre nos reportages sur les missions de la Sécurité. <br
+        />
+        Votre soutien permet de financer le matériel des bénévoles qui réalisent ces
+        reportages mettant en lumière le travail des intervenants et sensibilisent
+        le grand public.
+      </p>
+    </header>
+
+    <section
+      class="bg-gray-50 rounded-2xl p-8 md:p-10 flex flex-col md:flex-row items-center gap-8"
+    >
+      <div class="shrink-0">
+        <img
+          src="/images/logo_ha_vertical_navy.png"
+          alt="HelloAsso"
+          class="h-16 w-auto"
+        />
+      </div>
+
+      <div class="flex-1 space-y-4 text-center md:text-left">
+        <h2 class="text-2xl font-semibold">
+          Soutenir l&rsquo;association via HelloAsso
+        </h2>
+
+        <p class="text-gray-600">
+          Les dons sont collectés via HelloAsso, une plateforme française
+          sécurisée dédiée aux associations. <br />
+          Elle permet de soutenir Code Rouge Info simplement, en toute confiance.
+        </p>
+
+        <div class="inline-block">
+          <a
+            href="https://www.helloasso.com/associations/code-rouge-info/formulaires/1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta-button"
+          >
+            <span>Faire un don sur le site de HelloAsso</span>
+            <ExternalLinkIcon />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="space-y-8">
+      <h2 class="text-2xl font-semibold text-center">
+        À quoi sert votre don&nbsp;?
+      </h2>
+
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white rounded-xl p-6 shadow-sm space-y-3">
+          <h3 class="font-semibold text-lg">🔥 Sensibilisation du public</h3>
+          <p class="text-sm text-gray-600">
+            Création de contenus visuels pour informer sur les risques liés aux
+            feux d&rsquo;espaces naturels et aux situations d&rsquo;urgence.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-sm space-y-3">
+          <h3 class="font-semibold text-lg">📸 Reportages de terrain</h3>
+          <p class="text-sm text-gray-600">
+            Déplacements, matériel photo/vidéo et couverture d&rsquo;événements,
+            exercices et interventions majeures.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-sm space-y-3">
+          <h3 class="font-semibold text-lg">
+            🧑‍🚒 Valorisation des intervenants
+          </h3>
+          <p class="text-sm text-gray-600">
+            Mise en lumière du travail, des missions et des moyens des acteurs
+            de la Sécurité Civile et de la Défense.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="border border-gray-200 rounded-xl p-8 text-center space-y-4"
+    >
+      <h2 class="text-xl font-semibold">
+        Une association bénévole et indépendante
+      </h2>
+
+      <p
+        class="text-gray-600 max-w-3xl mx-auto bg-white rounded-xl p-6 shadow-sm space-y-3"
+      >
+        Code Rouge Info est animée exclusivement par des bénévoles. <br />
+        Les dons servent au fonctionnement de l&rsquo;association, à la production
+        de contenus <br />
+        et au soutien des actions menées sur le terrain.
+      </p>
+    </section>
+  </section>
 </Layout>
