@@ -67,7 +67,7 @@ const NAV_LINKS: SectionInterface[] = [
       },
       {
         label: "Sapeurs-pompiers",
-        path: "pompiers",
+        path: "galeries/pompiers",
         description: "Nos reportages sur les sapeurs-pompiers.",
       },
     ],
