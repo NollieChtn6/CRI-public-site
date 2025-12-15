@@ -1,24 +1,43 @@
 ---
+import Tag from '@/atoms/Tag.astro';
+import { formatDate } from '@/utils/formatDate';
 import { IoArrowForward } from 'react-icons/io5';
+import type { GalleryInterface } from '@/@types/types';
 
 const ArrowIcon = IoArrowForward;
-const { title, description, image, slug, author, category, department } =
-  Astro.props;
+const gallery = Astro.props as GalleryInterface;
+const cover = gallery.pictures[0];
 ---
 
 <article
   class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
 >
-  <img src={image} alt={title} class="w-full h-52 object-cover" />
+  <div class="relative">
+    <img src={cover.url} alt={cover.alt} class="w-full h-52 object-cover" />
+    <div class="absolute top-3 left-3">
+      <Tag label={gallery.tag} url={`/reportages/galeries/${gallery.tag}`} />
+    </div>
+  </div>
 
-  <div class="p-4 space-y-2">
-    <h3 class="text-lg font-semibold line-clamp-2">{title} ({department})</h3>
-    <p class="text-sm text-gray-600">Par {author}</p>
-    <p class="text-sm text-gray-600 line-clamp-3">{description}</p>
+  <div class="p-4 space-y-4">
+    <h3 class="text-lg font-semibold line-clamp-2">
+      {gallery.title} ({gallery.department})
+    </h3>
+
+    <p class="text-sm text-gray-600">
+      Par {gallery.authors.join(', ')} • Publié le {formatDate(gallery.date)}
+    </p>
+
+    <p class="text-sm text-gray-600 line-clamp-3">
+      {gallery.description}
+    </p>
   </div>
 
   <div class="flex justify-end p-4">
-    <a href={`/reportages/${category}/${slug}`} class="cta-button">
+    <a
+      href={`/reportages/galeries/${gallery.tag}/${gallery.slug}`}
+      class="cta-button inline-flex items-center gap-2"
+    >
       <span>Voir le reportage</span>
       <ArrowIcon />
     </a>
