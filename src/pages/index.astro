@@ -5,23 +5,26 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <section class="hero-section grid grid-cols-2 px-16 gap-4">
-    <div class="flex flex-col justify-center space-y-8 h-[600px]">
-      <h1>Code Rouge Info</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-        tincidunt iaculis tempus. Vestibulum consectetur maximus enim, fermentum
-        blandit orci finibus eget. Sed gravida fringilla condimentum.
+  <section class="hero-section grid md:grid-cols-2 gap-8 px-6 md:px-16 py-16">
+    <div class="flex flex-col justify-center h-full space-y-6">
+      <h1 class="text-4xl md:text-5xl font-bold">Code Rouge Info</h1>
+      <p class="text-gray-700 text-lg md:text-xl max-w-lg">
+        Association française loi 1901, Code Rouge Info valorise le travail des
+        intervenants de la Sécurité Civile et de la Défense à travers des
+        reportages photo et vidéo, et sensibilise le grand public aux situations
+        d&rsquo;urgence et aux risques naturels.
       </p>
+
       <div>
-        <a href="association/a-propos" class="navButton">Notre histoire</a>
+        <a href="association/a-propos" class="nav-button">Notre histoire</a>
       </div>
     </div>
-    <div class="items-center flex justify-center">
+
+    <div class="flex justify-center items-center">
       <img
         src="https://picsum.photos/650/450"
         alt="Hero Image"
-        class="object-cover rounded-lg"
+        class="object-cover rounded-lg w-full max-w-md md:max-w-full"
       />
     </div>
   </section>
