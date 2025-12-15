@@ -1,0 +1,59 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { formatDate } from '@/utils/formatDate';
+import type { GalleryInterface } from '@/@types/types';
+import galleries from '@/data/galleries.json';
+import GalleryWithCarousel from '@/components/pictures/GalleryWithCarousel.astro';
+import { IoIosArrowBack } from 'react-icons/io';
+import Tag from '@/atoms/Tag.astro';
+
+// docs.astro.build/en/guides/on-demand-rendering/
+export const prerender = true;
+
+const BackIcon = IoIosArrowBack;
+
+export async function getStaticPaths() {
+  return galleries.map((gallery: GalleryInterface) => ({
+    params: { slug: gallery.slug },
+    props: { gallery }
+  }));
+}
+
+const { gallery } = Astro.props as { gallery: GalleryInterface };
+if (!gallery) {
+  return Astro.redirect('/404');
+}
+---
+
+<Layout>
+  <a
+    href={`/reportages/galeries/${gallery.tag}`}
+    class="flex space-x-2 items-center text-sm"
+    ><BackIcon /><span>Retour aux reportages</span></a
+  >
+  <article class="max-w-5xl px-4 py-4 space-y-4">
+    <header class="space-y-4">
+      <h1 class="text-4xl font-bold">{gallery.title} ({gallery.department})</h1>
+      <p class="text-sm text-gray-500">
+        Par {gallery.authors.join(', ')}
+        • {formatDate(gallery.date)}
+        • Dans <Tag
+          label={gallery.tag}
+          url={`/reportages/galeries/${gallery.tag}`}
+        />
+      </p>
+      <p>{gallery.description}</p>
+    </header>
+  </article>
+
+  {
+    gallery.pictures?.length > 0 && (
+      <section class="px-4 md:px-8 lg:px-16">
+        <GalleryWithCarousel pictures={gallery.pictures} />
+      </section>
+    )
+  }
+  <section class="py-4 px-4">
+    <p>{gallery.content}</p>
+  </section>
+</Layout>
