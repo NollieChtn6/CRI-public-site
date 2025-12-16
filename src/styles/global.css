@@ -17,6 +17,107 @@
   --color-rolling-stone-800: #424548;
   --color-rolling-stone-900: #3a3d3f;
   --color-rolling-stone-950: #242628;
+
+  /* Code Rouge Info BLACK */
+  --color-shark-50: #f6f6f5;
+  --color-shark-100: #e7e7e6;
+  --color-shark-200: #d1d1d0;
+  --color-shark-300: #b1b0af;
+  --color-shark-400: #8a8a86;
+  --color-shark-500: #6f6f6b;
+  --color-shark-600: #5f5f5b;
+  --color-shark-700: #504f4e;
+  --color-shark-800: #464644;
+  --color-shark-900: #3d3d3c;
+  --color-shark-950: #222221; /* Main */
+
+  /* Code Rouge Info YELLOW */
+  --color-turbo-50: #fcfde9;
+  --color-turbo-100: #f8fbc6;
+  --color-turbo-200: #f5f890;
+  --color-turbo-300: #f3f251;
+  --color-turbo-400: #ede317; /* Main */
+  --color-turbo-500: #decc14;
+  --color-turbo-600: #bfa10f;
+  --color-turbo-700: #99760f;
+  --color-turbo-800: #7f5d14;
+  --color-turbo-900: #6c4c17;
+  --color-turbo-950: #3f2809;
+
+  /* Code Rouge Info RED */
+  --color-red-orange-50: #fff1f1;
+  --color-red-orange-100: #ffdfdf;
+  --color-red-orange-200: #ffc5c5;
+  --color-red-orange-300: #ff9d9d;
+  --color-red-orange-400: #ff6464;
+  --color-red-orange-500: #ff3333; /* Main */
+  --color-red-orange-600: #ed1515;
+  --color-red-orange-700: #c80d0d;
+  --color-red-orange-800: #a50f0f;
+  --color-red-orange-900: #881414;
+  --color-red-orange-950: #4b0404;
+
+  /* Code Rouge Info BLUE */
+  --color-dark-blue-50: #f1f0ff;
+  --color-dark-blue-100: #e6e4ff;
+  --color-dark-blue-200: #d0cdff;
+  --color-dark-blue-300: #aea5ff;
+  --color-dark-blue-400: #8772ff;
+  --color-dark-blue-500: #633aff;
+  --color-dark-blue-600: #5112ff;
+  --color-dark-blue-700: #4101ff;
+  --color-dark-blue-800: #3300cc; /* Main */
+  --color-dark-blue-900: #2e02b0;
+  --color-dark-blue-950: #170078;
+  
+}
+
+@font-face {
+  font-family: "Montserrat-Light";  
+  src: local("Montserrat Light"),
+    url("./fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light-Italic";  
+  src: local("Montserrat Light Italic"),
+    url("./fonts/Montserrat-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";  
+  src: local("Montserrat Regular"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular-Italic";  
+  src: local("Montserrat Regular Italic"),
+    url("./fonts/Montserrat-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";  
+  src: local("Montserrat Medium"),
+    url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium-Italic";  
+  src: local("Montserrat Medium Italic"),
+    url("./fonts/Montserrat-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";  
+  src: local("Montserrat Bold"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold-Italic";  
+  src: local("Montserrat Bold Italic"),
+    url("./fonts/Montserrat-BoldItalic.ttf") format("truetype");
 }
 
 @theme inline {
@@ -124,6 +225,11 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+.html, body {
+  font-family: "Montserrat-Regular";
+  height: 100%;
 }
 
 @layer base {
