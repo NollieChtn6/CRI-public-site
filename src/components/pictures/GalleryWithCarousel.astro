@@ -1,8 +1,8 @@
 ---
-import type { ArticlePicture } from '@/@types/types';
+import type { Picture } from '@/@types/types';
 import GalleryClient from './GalleryClient.tsx';
 
-const { pictures } = Astro.props as { pictures: ArticlePicture[] };
+const { pictures } = Astro.props as { pictures: Picture[] };
 ---
 
 <GalleryClient pictures={pictures} client:load />

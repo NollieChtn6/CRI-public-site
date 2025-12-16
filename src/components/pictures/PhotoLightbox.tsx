@@ -2,7 +2,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useEffect, useState } from "react";
 import { IoChevronBack, IoChevronForward, IoCloseOutline } from "react-icons/io5";
 
-import type { ArticlePicture } from "@/@types/types";
+import type { Picture } from "@/@types/types";
 
 const CloseIcon = IoCloseOutline;
 
@@ -11,7 +11,7 @@ export default function PhotoLightbox({
   startIndex,
   onClose,
 }: {
-  pictures: ArticlePicture[];
+  pictures: Picture[];
   startIndex: number;
   onClose: () => void;
 }) {

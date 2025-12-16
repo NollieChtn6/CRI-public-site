@@ -1,8 +1,8 @@
 import { useState } from "react";
-import type { ArticlePicture } from "@/@types/types";
+import type { Picture } from "@/@types/types";
 import PhotoLightbox from "./PhotoLightbox";
 
-export default function GalleryClient({ pictures }: { pictures: ArticlePicture[] }) {
+export default function GalleryClient({ pictures }: { pictures: Picture[] }) {
   const [index, setIndex] = useState<number | null>(null);
 
   return (
