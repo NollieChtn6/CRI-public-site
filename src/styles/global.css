@@ -72,6 +72,54 @@
   
 }
 
+@font-face {
+  font-family: "Montserrat-Light";  
+  src: local("Montserrat Light"),
+    url("./fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light-Italic";  
+  src: local("Montserrat Light Italic"),
+    url("./fonts/Montserrat-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";  
+  src: local("Montserrat Regular"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular-Italic";  
+  src: local("Montserrat Regular Italic"),
+    url("./fonts/Montserrat-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";  
+  src: local("Montserrat Medium"),
+    url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Medium-Italic";  
+  src: local("Montserrat Medium Italic"),
+    url("./fonts/Montserrat-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";  
+  src: local("Montserrat Bold"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold-Italic";  
+  src: local("Montserrat Bold Italic"),
+    url("./fonts/Montserrat-BoldItalic.ttf") format("truetype");
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -177,6 +225,11 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+.html, body {
+  font-family: "Montserrat-Regular";
+  height: 100%;
 }
 
 @layer base {
