@@ -4,11 +4,20 @@ import RecruitementForm from '@/components/forms/RecruitementForm.astro';
 ---
 
 <Layout>
-  <h2>Rejoindre l'équipe de Code Rouge Info</h2>
-  <p>
-    Envie de contribuer à nos reportages et à nos actions de sensibilisation ? <br
-    />
-    Remplissez simplement le formulaire ci-dessous et nous vous contacterons rapidement.
-  </p>
-  <RecruitementForm />
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4">
+      <h1 class="text-4xl sm:text-5xl font-bold">
+        Rejoindre l&rsquo;équipe de Code Rouge Info
+      </h1>
+
+      <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        Envie de contribuer à nos reportages et à nos actions de
+        sensibilisation&nbsp;? Rejoignez une équipe de bénévoles passionnés et
+        engagés.
+      </p>
+    </header>
+    <section class="bg-white rounded-2xl p-6 sm:p-8 md:p-10 shadow-sm">
+      <RecruitementForm />
+    </section>
+  </section>
 </Layout>

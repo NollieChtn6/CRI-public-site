@@ -2,6 +2,7 @@
 import { formatDate } from '@/utils/formatDate';
 import { IoArrowForward } from 'react-icons/io5';
 import type { ArticleInterface } from '@/@types/types';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
 
 const ArrowIcon = IoArrowForward;
 const { title, slug, date, summary, coverPictureUrl, coverPictureAlt } =
@@ -11,11 +12,12 @@ const { title, slug, date, summary, coverPictureUrl, coverPictureAlt } =
 <article
   class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
 >
-  <img
+  <ImageWithPlaceholder
     src={coverPictureUrl}
     alt={coverPictureAlt}
+    width={1500}
+    height={1000}
     class="w-full h-52 object-cover"
-    loading="lazy"
   />
 
   <div class="p-4 space-y-2">
