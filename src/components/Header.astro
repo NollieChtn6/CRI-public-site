@@ -1,11 +1,17 @@
 ---
 import Logo from '../atoms/Logo.astro';
 import NavBar from './Navbar.tsx';
+import SideSheet from './Sheet';
 ---
 
 <header
   class="flex fixed z-50 items-center justify-between w-full bg-rolling-stone-500 text-white min-h-30 shadow-md"
 >
   <Logo />
-  <NavBar client:load />
+  <div class="lg:hidden">
+    <SideSheet client:load />
+  </div>
+  <div class="hidden lg:block">
+    <NavBar client:load />
+  </div>
 </header>
