@@ -1,18 +1,8 @@
-import {
-  ListItem,
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu.tsx";
+import NavItem from "@/atoms/NavItem";
 import { useWindowSize } from "@/hooks/useWindowSize";
-import { convertToSmartApostrophe } from "@/utils/formatText";
 import type { SectionInterface } from "../@types/types";
 
-const NAV_LINKS: SectionInterface[] = [
+export const NAV_LINKS: SectionInterface[] = [
   { label: "Accueil", path: "" },
   {
     label: "L'association",
@@ -77,41 +67,13 @@ const NAV_LINKS: SectionInterface[] = [
 
 export default function Navbar() {
   const { width } = useWindowSize();
-  const isMobile = width < 768;
+  const _isMobile = width < 768;
 
   return (
-    <NavigationMenu viewport={isMobile} className="px-4">
-      <NavigationMenuList className="gap-6">
-        {NAV_LINKS.map((link) => (
-          <NavigationMenuItem key={link.label}>
-            {!link.pages ? (
-              <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} navbarLink`}>
-                <a href={`/${link.path}`}>{link.label}</a>
-              </NavigationMenuLink>
-            ) : (
-              <>
-                <NavigationMenuTrigger className="navbarLink">
-                  {convertToSmartApostrophe(link.label)}
-                </NavigationMenuTrigger>
-                <NavigationMenuContent className="">
-                  <ul className="grid gap-2 w-56 text-sm">
-                    {link.pages.map((page) => (
-                      <ListItem
-                        key={page.path}
-                        title={page.label}
-                        href={`/${link.path}/${page.path}`}
-                        className="block px-2 py-1 hover:bg-accent rounded-sm"
-                      >
-                        {page.description}
-                      </ListItem>
-                    ))}
-                  </ul>
-                </NavigationMenuContent>
-              </>
-            )}
-          </NavigationMenuItem>
-        ))}
-      </NavigationMenuList>
-    </NavigationMenu>
+    <nav className="flex items-center gap-6 px-4">
+      {NAV_LINKS.map((item) => (
+        <NavItem key={item.label} item={item} />
+      ))}
+    </nav>
   );
 }
