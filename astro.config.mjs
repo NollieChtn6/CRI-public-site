@@ -24,6 +24,10 @@ export default defineConfig({
   },
 
   output: "server",
+  prefetch: { prefetchAll: true, defaultStrategy: "viewport" },
 
+  image:{
+    domains: ["ch-chalon71.fr"]
+  },
   adapter: vercel()
 });
