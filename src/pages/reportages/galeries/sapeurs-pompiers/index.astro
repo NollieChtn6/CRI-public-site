@@ -10,11 +10,18 @@ const filteredGalleries: GalleryInterface[] = galleries.filter(
 ---
 
 <Layout>
-  <h1>Sapeurs-pompiers</h1>
-  <p>
-    Bienvenue dans la section dédiée aux reportages sur les sapeurs-pompiers.
-  </p>
-  <div class="space-y-8">
-    {galleries.map((gallery) => <GalleryItem {...gallery} />)}
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4">
+      <h1 class="text-4xl font-bold">Sapeurs-pompiers</h1>
+      <p class="text-gray-700 text-lg sm:text-xl max-w-3xl mx-auto">
+        Découvrez nos reportages photo sur les sapeurs-pompiers, leur travail
+        quotidien, leurs interventions et les événements majeurs auxquels ils
+        participent.
+      </p>
+    </header>
+
+    <section class="space-y-8">
+      {filteredGalleries.map((gallery) => <GalleryItem {...gallery} />)}
+    </section>
   </div>
 </Layout>

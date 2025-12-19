@@ -3,6 +3,8 @@ import Tag from '@/atoms/Tag.astro';
 import { formatDate } from '@/utils/formatDate';
 import { IoArrowForward } from 'react-icons/io5';
 import type { GalleryInterface } from '@/@types/types';
+import { Image } from 'astro:assets';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
 
 const ArrowIcon = IoArrowForward;
 const gallery = Astro.props as GalleryInterface;
@@ -13,7 +15,13 @@ const cover = gallery.pictures[0];
   class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
 >
   <div class="relative">
-    <img src={cover.url} alt={cover.alt} class="w-full h-52 object-cover" />
+    <ImageWithPlaceholder
+      src={cover.url}
+      alt={cover.alt}
+      width={1500}
+      height={1000}
+      class="w-full h-52 object-cover"
+    />
     <div class="absolute top-3 left-3">
       <Tag label={gallery.tag} url={`/reportages/galeries/${gallery.tag}`} />
     </div>

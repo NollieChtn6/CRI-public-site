@@ -1,7 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import ArticleItem from '@/components/articles/ArticleItem.astro';
-
 import articles from '@/data/articles.json';
 
 const sortedArticles = articles.sort(
@@ -10,9 +9,17 @@ const sortedArticles = articles.sort(
 ---
 
 <Layout>
-  <section class="max-w-5xl mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-10">Articles</h1>
-    <div class="space-y-8">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4">
+      <h1 class="text-4xl font-bold">Articles</h1>
+      <p class="text-gray-700 text-lg sm:text-xl max-w-3xl mx-auto">
+        Retrouvez l&rsquo;ensemble de nos articles et reportages pour découvrir
+        le travail des intervenants de la Sécurité Civile et de la Défense, les
+        événements majeurs et les missions d&rsquo;urgence.
+      </p>
+    </header>
+
+    <section class="space-y-8">
       {
         sortedArticles.map((article) => (
           <ArticleItem
@@ -26,6 +33,6 @@ const sortedArticles = articles.sort(
           />
         ))
       }
-    </div>
-  </section>
+    </section>
+  </div>
 </Layout>

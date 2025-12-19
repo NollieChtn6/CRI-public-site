@@ -1,0 +1,67 @@
+---
+import { Image, getImage } from 'astro:assets';
+import placeholderSvg from '@/assets/image-placeholder.svg?raw';
+
+const { src, alt, width, height, class: className } = Astro.props;
+
+const shouldInfer = !width || !height;
+const optimizedImage = await getImage({
+  src,
+  width,
+  height,
+  inferSize: shouldInfer
+});
+const ratio =
+  optimizedImage.attributes.width / optimizedImage.attributes.height;
+
+// On prépare l'URL du SVG ici
+const svgDataUri = `data:image/svg+xml;utf8,${encodeURIComponent(placeholderSvg)}`;
+---
+
+<div
+  class={`img-container relative bg-gray-100`}
+  style={`aspect-ratio: ${ratio}; background-image: url("${svgDataUri}");`}
+>
+  <Image
+    src={src}
+    alt={alt}
+    width={width}
+    height={height}
+    inferSize={shouldInfer}
+    class={`main-img opacity-0 transition-opacity duration-300 w-full h-full object-cover relative z-10 ${className}`}
+    onload="this.classList.add('is-visible'); this.parentElement.classList.add('is-loaded');"
+  />
+
+  <script is:inline>
+    (function () {
+      const img = document.currentScript.previousElementSibling;
+      if (img && img.complete) {
+        img.style.transition = 'none';
+        img.classList.add('is-visible');
+        img.parentElement.classList.add('is-loaded');
+      }
+    })();
+  </script>
+</div>
+
+<style>
+  .img-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px;
+    width: 100%;
+    display: block;
+  }
+
+  /* Cache l'image tant qu'elle n'est pas chargée */
+  .main-img.is-visible {
+    opacity: 1 !important;
+  }
+
+  /* Supprime le placeholder (fond gris + SVG) dès que l'image est chargée */
+  /* On utilise !important pour écraser le style inline du background-image */
+  .img-container.is-loaded {
+    background-image: none !important;
+    background-color: transparent !important;
+  }
+</style>

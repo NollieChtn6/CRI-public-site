@@ -5,12 +5,19 @@ import GalleryItem from '@/components/galleries/GalleryItem.astro';
 ---
 
 <Layout>
-  <h1>Galeries photo</h1>
-  <p>
-    Découvrez nos reportages photo couvrant divers événements et interventions.
-  </p>
+  <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4">
+      <h1 class="text-4xl sm:text-5xl font-bold">Galeries photo</h1>
 
-  <div class="space-y-8">
-    {galleries.map((gallery) => <GalleryItem {...gallery} />)}
-  </div>
+      <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        Découvrez nos reportages photo réalisés sur le terrain, mettant en
+        lumière les missions, les exercices et les interventions des acteurs de
+        la Sécurité Civile et de la Défense.
+      </p>
+    </header>
+
+    <section class="space-y-10">
+      {galleries.map((gallery) => <GalleryItem {...gallery} />)}
+    </section>
+  </section>
 </Layout>
