@@ -11,7 +11,7 @@ const { name, website, logo } = Astro.props as PartnerCardProps;
 ---
 
 <article
-  class="partner-card flex flex-col items-center text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow justify-between"
+  class="partner-card flex flex-col items-center text-center p-4 bg-shark-900 rounded-xl shadow-md shadow-black/40 hover:shadow-lg transition-shadow justify-between"
 >
   <ImageWithPlaceholder src={logo} alt={name} class="object-contain mb-2" />
 
@@ -24,12 +24,12 @@ const { name, website, logo } = Astro.props as PartnerCardProps;
         class="block"
         title={`Consulter le site du partenaire : ${website}`}
       >
-        <span class="text-sm font-medium text-gray-800 hover:text-blue-600">
+        <span class="text-sm font-medium text-shark-50 hover:text-dark-blue-400 transition-colors">
           {name}
         </span>
       </a>
     ) : (
-      <p class="text-sm font-medium text-gray-800">{name}</p>
+      <p class="text-sm font-medium text-shark-50">{name}</p>
     )
   }
 </article>

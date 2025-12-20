@@ -5,7 +5,6 @@ import {
   SheetContent,
   SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 
@@ -18,7 +17,7 @@ export default function SideSheet() {
         <button
           type="button"
           aria-label="Ouvrir le menu"
-          className="rounded-md cursor-pointer hover:bg-red-500 transition-all duration-200 ease-in-out p-2 hover:scale-105"
+          className="rounded-md cursor-pointer hover:bg-dark-blue-800 transition-all duration-200 ease-in-out p-2 hover:scale-105"
         >
           <IconContext.Provider value={{ size: "32" }}>
             <IoMenuOutline />
@@ -26,15 +25,13 @@ export default function SideSheet() {
         </button>
       </SheetTrigger>
 
-      <SheetContent side="right" className="w-[320px] sm:w-[360px]">
-        <SheetHeader className="mb-4">
-          <SheetTitle className="text-left text-xl">Menu</SheetTitle>
-        </SheetHeader>
+      <SheetContent side="right" className="w-full">
+        <SheetHeader />
         <SheetDescription>
-          <nav className="flex flex-col gap-6">
+          <nav className="flex flex-col gap-6 text-shark-50">
             {NAV_LINKS.map((section) => (
               <div key={section.label} className="space-y-2">
-                <div className="rounded-md hover:bg-red-500 hover:text-white transition-colors duration-200 ease-in-out">
+                <div className="rounded-md hover:bg-dark-blue-800 transition-colors duration-200 ease-in-out">
                   <a
                     href={`/${section.path}`}
                     className="
@@ -49,7 +46,7 @@ export default function SideSheet() {
                   </a>
                 </div>
                 {section.pages && section.pages.length > 0 && (
-                  <div className="flex flex-col ml-4 pl-4 border-l border-gray-200">
+                  <div className="flex flex-col ml-4 pl-4 border-l border-shark-200/50">
                     {section.pages.map((page) => (
                       <a
                         key={page.path}
@@ -60,7 +57,7 @@ export default function SideSheet() {
                         transition
                         hover:border-l
                         hover:border-l-red-500
-                        hover:text-foreground
+                        hover:text-shark-50
                         hover:translate-x-1
                         active:scale-[0.98]
                       "

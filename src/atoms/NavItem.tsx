@@ -31,7 +31,11 @@ export default function NavItem({ item }: NavItemProps) {
   return (
     <div
       ref={ref}
-      className="relative hover:bg-red-500 hover:scale-105 rounded-md transition-all duration-200 ease-in-out"
+      className="
+        relative rounded-md
+        transition-all duration-200 ease-in-out
+        hover:bg-shark-900
+      "
     >
       <a
         href={`/${item.path}`}
@@ -39,17 +43,21 @@ export default function NavItem({ item }: NavItemProps) {
         className="
           inline-flex items-center gap-1
           px-4 py-2
-          font-medium text-base"
-        aria-haspopup={hasPages}
-        aria-expanded={open}
+          font-medium text-base
+          text-shark-100
+          hover:text-shark-50
+          transition-colors
+        "
       >
         {convertToSmartApostrophe(item.label)}
 
         {hasPages && (
           <FiChevronDown
             className={`
-              h-4 w-4 transition-transform duration-200 ease-out
-              ${open ? "rotate-180" : "rotate-0"}
+              h-4 w-4
+              text-shark-400
+              transition-all duration-200 ease-out
+              ${open ? "rotate-180 text-shark-50" : ""}
             `}
           />
         )}
@@ -60,8 +68,10 @@ export default function NavItem({ item }: NavItemProps) {
           className={`
             absolute -left-5 top-full mt-2 z-50
             min-w-[260px]
-            rounded-xl bg-white shadow-lg
-            border border-gray-100
+            rounded-xl
+            bg-shark-900
+            border border-shark-800
+            shadow-xl
             origin-top
             transition-all duration-200 ease-out
             ${
@@ -80,17 +90,24 @@ export default function NavItem({ item }: NavItemProps) {
                   className="
                     group block px-4 py-3
                     transition-all duration-150
-                    hover:bg-gray-500
+                    hover:bg-shark-800
                     hover:translate-x-1
-                    hover:border-l
-                    hover:border-red-500
+                    border-l-2 border-transparent
+                    hover:border-red-orange-500
                   "
                 >
-                  <p className="font-medium text-base text-gray-900 group-hover:text-red-600 transition-colors">
+                  <p
+                    className="
+                    font-medium text-base
+                    text-shark-100
+                    group-hover:text-red-orange-400
+                    transition-colors
+  "
+                  >
                     {page.label}
                   </p>
 
-                  {page.description && <p className="text-xs text-gray-500">{page.description}</p>}
+                  {page.description && <p className="text-xs text-shark-300">{page.description}</p>}
                 </a>
               </li>
             ))}

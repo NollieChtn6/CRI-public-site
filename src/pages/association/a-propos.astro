@@ -4,18 +4,21 @@ import Timeline from '../../components/Timeline.tsx';
 ---
 
 <Layout>
-  <div class="max-w-5xl mx-auto px-4 py-12 space-y-12">
+  <div class="max-w-5xl mx-auto px-4 py-12 space-y-12 text-shark-50">
     <header class="text-center space-y-4">
-      <h1 class="text-4xl font-bold">À propos de Code Rouge Info</h1>
-      <p class="text-gray-700 text-lg sm:text-xl">
+      <h1 class="text-4xl font-bold text-red-orange-500">
+        À propos de Code Rouge Info
+      </h1>
+      <p class="text-shark-200 text-lg sm:text-xl">
         Association française loi 1901, Code Rouge Info valorise le travail des
         intervenants de la Sécurité Civile et de la Défense à travers des
         reportages photo et vidéo, et sensibilise le grand public aux situations
         d&rsquo;urgence et aux risques naturels.
       </p>
     </header>
+
     <section class="grid md:grid-cols-2 gap-8 items-start">
-      <div class="space-y-4 text-gray-700 flex flex-col justify-center h-full">
+      <div class="space-y-4 text-shark-200 flex flex-col justify-center h-full">
         <p>
           Notre équipe de bénévoles œuvre quotidiennement pour montrer le
           travail, les méthodologies et les outils des intervenants
@@ -38,8 +41,11 @@ import Timeline from '../../components/Timeline.tsx';
         />
       </div>
     </section>
+
     <section>
-      <h2 class="text-2xl font-semibold mb-6 text-center">Notre histoire</h2>
+      <h2 class="text-2xl font-semibold mb-6 text-center text-turbo-400">
+        Notre histoire
+      </h2>
       <Timeline client:load />
     </section>
   </div>

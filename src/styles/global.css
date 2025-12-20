@@ -237,17 +237,12 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-shark-50;
   }
 }
 
-
-h2 {
-  @apply text-2xl text-black;
-}
-
 .cta-button {
-  @apply flex text-blue-800 px-6 py-3 rounded-md hover:scale-105 transition-all hover:cursor-pointer hover:bg-blue-400 items-center gap-2;
+  @apply bg-red-orange-500 hover:bg-red-orange-600 text-shark-100 inline-flex items-center gap-2 px-4 py-2 rounded-md shadow transition-all hover:scale-105 hover:cursor-pointer;
 }
 
 .navbarLink {
@@ -255,5 +250,5 @@ h2 {
 }
 
 .nav-button {
-  @apply inline-block bg-blue-800 text-primary-foreground px-8 py-4 rounded-md hover:scale-105 transition-all hover:cursor-pointer  shadow hover:bg-blue-400;
+  @apply inline-block bg-dark-blue-800 text-primary-foreground px-8 py-4 rounded-md hover:scale-105 transition-all hover:cursor-pointer  shadow hover:bg-dark-blue-900;
 }
