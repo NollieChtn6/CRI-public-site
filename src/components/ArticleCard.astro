@@ -10,25 +10,29 @@ const { title, slug, date, summary, coverPictureUrl, coverPictureAlt } =
 ---
 
 <article
-  class="card bg-white text-black rounded-xl shadow-lg shadow-black/30 overflow-hidden"
+  class="card bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden hover:scale-105 transition-transform duration-200"
 >
   <ImageWithPlaceholder
     src={coverPictureUrl}
     alt={coverPictureAlt}
     width={1500}
     height={1000}
-    class="w-full h-52 object-cover"
+    class="w-full h-52 object-cover rounded-t-xl"
   />
 
-  <div class="p-4 space-y-2">
-    <h3 class="text-lg font-semibold line-clamp-2">{title}</h3>
-    <p class="text-sm text-gray-600">Publié le {formatDate(date)}</p>
-    <p class="text-sm text-gray-600 line-clamp-3">{summary}</p>
+  <div class="p-4 md:p-6 space-y-2">
+    <h3 class="text-lg md:text-xl font-semibold line-clamp-2">{title}</h3>
+    <p class="text-sm text-shark-300">Publié le {formatDate(date)}</p>
+    <p class="text-sm text-shark-200 line-clamp-3">{summary}</p>
   </div>
-  <div class="flex justify-end p-4">
-    <a href={`/reportages/articles/${slug}`} class="cta-button">
-      <span>Lire la suite</span>
-      <ArrowIcon /></a
+
+  <div class="flex justify-end p-4 md:p-6">
+    <a
+      href={`/reportages/articles/${slug}`}
+      class="cta-button bg-red-orange-500 hover:bg-red-orange-600 text-shark-50"
     >
+      <span>Lire la suite</span>
+      <IoArrowForward />
+    </a>
   </div>
 </article>

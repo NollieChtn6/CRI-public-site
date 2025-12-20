@@ -70,7 +70,7 @@ export default function Navbar() {
   const _isMobile = width < 768;
 
   return (
-    <nav className="flex items-center gap-6 px-4">
+    <nav className="flex items-center gap-2 px-4 text-shark-100">
       {NAV_LINKS.map((item) => (
         <NavItem key={item.label} item={item} />
       ))}

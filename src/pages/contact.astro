@@ -13,28 +13,38 @@ const PhoneIcon = FiPhone;
       <img
         src="https://picsum.photos/650/450"
         alt="Lorem Ipsum"
-        class="object-cover rounded-lg w-full max-w-md md:max-w-full"
+        class="object-cover rounded-xl shadow-md w-full max-w-md md:max-w-full"
       />
     </div>
-    <div class="flex flex-col justify-center h-full space-y-6">
-      <h1 class="text-4xl md:text-5xl font-bold">Contact</h1>
-      <p class="text-gray-700 text-lg md:text-xl max-w-lg">
+
+    <div class="flex flex-col justify-center h-full space-y-6 text-shark-100">
+      <h1 class="text-4xl md:text-5xl font-bold text-red-orange-500">
+        Contact
+      </h1>
+      <p class="text-lg md:text-xl max-w-lg text-shark-200">
         Une question, une suggestion, une demande de partenariat&nbsp;?
         Contactez-nous&nbsp;!
       </p>
-      <div class="flex flex-col space-x-4">
+
+      <div class="flex flex-col space-y-4">
         <div class="flex items-center space-x-2">
           <EmailIcon />
           <a
             href="mailto:contact@coderougeinfo.fr"
-            class="text-lg text-gray-700">contact@coderougeinfo.fr</a
+            class="text-lg hover:text-red-orange-400 transition-colors"
           >
+            contact@coderougeinfo.fr
+          </a>
         </div>
+
         <div class="flex items-center space-x-2">
           <PhoneIcon />
-          <a href="tel:+33620899954" class="text-lg text-gray-700"
-            >+33 6 20 89 99 54</a
+          <a
+            href="tel:+33620899954"
+            class="text-lg hover:text-red-orange-400 transition-colors"
           >
+            +33 6 20 89 99 54
+          </a>
         </div>
       </div>
     </div>

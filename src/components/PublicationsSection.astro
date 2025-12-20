@@ -7,9 +7,11 @@ const latestArticles = [...articles]
   .slice(0, 6);
 ---
 
-<section class="publications-section flex items-center justify-center py-8">
-  <div class="container space-y-8">
-    <h2 class="text-3xl font-bold">Actualités</h2>
+<section
+  class="publications-section bg-shark-950 flex items-center justify-center py-16"
+>
+  <div class="container space-y-10">
+    <h2 class="text-3xl font-bold text-shark-50 text-center">Actualités</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {
@@ -27,7 +29,7 @@ const latestArticles = [...articles]
       }
     </div>
 
-    <div class="flex justify-center pt-4">
+    <div class="flex justify-center pt-6">
       <a href="/reportages/articles" class="nav-button">
         Voir tous les articles
       </a>

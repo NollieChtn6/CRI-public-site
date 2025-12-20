@@ -7,16 +7,18 @@ import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
 
 <Layout>
   <section
-    class="hero-section flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-16 min-h-[calc(100vh-7.5rem)] gap-12 md:gap-16"
+    class="hero-section flex flex-col lg:flex-row items-center justify-center px-6 md:px-16 py-16 min-h-[calc(100vh-7.5rem)] gap-12 md:gap-16"
   >
     <div
       class="flex flex-col justify-center space-y-6 max-w-lg text-center md:text-left"
     >
-      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+      <h1
+        class="text-4xl md:text-5xl font-bold leading-tight uppercase text-red-orange-500"
+      >
         Code Rouge Info
       </h1>
 
-      <p class="text-gray-700 text-base lg:text-xl">
+      <p class="text-shark-200 text-base lg:text-xl">
         Association française loi 1901, Code Rouge Info valorise le travail des
         intervenants de la Sécurité Civile et de la Défense à travers des
         reportages photo et vidéo, et sensibilise le grand public aux situations
@@ -24,7 +26,7 @@ import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
       </p>
 
       <div>
-        <a href="association/a-propos" class="nav-button"> Notre histoire </a>
+        <a href="association/a-propos" class="nav-button">Notre histoire </a>
       </div>
     </div>
     <div class="flex justify-center items-center w-full md:w-1/2">
@@ -33,7 +35,7 @@ import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
         width={650}
         height={450}
         alt="Photo d'intervention de la Sécurité Civile"
-        class="rounded-lg"
+        class="rounded-lg shadow-lg ring-1 ring-white/10"
       />
     </div>
   </section>

@@ -24,39 +24,48 @@ const year = new Date().getFullYear();
 ---
 
 <footer
-  class="bg-rolling-stone-900 text-white
+  class="bg-shark-950
+    text-shark-200
     px-6 py-10
     md:px-28 md:py-8
-    text-xs space-y-4"
+    text-xs space-y-6
+    border-t border-shark-900"
 >
   <section
     class="flex flex-col gap-8
-    md:flex-row md:justify-between md:items-center"
+      md:flex-row md:justify-between md:items-center"
   >
     <img
       src="/images/logo-rond.svg"
       alt="Logo de Code Rouge Info"
-      class="w-20 mx-auto md:mx-0"
+      class="w-20 mx-auto md:mx-0 opacity-90"
     />
 
     <NavigationTree />
   </section>
-  <div class="border-t border-white/20 w-full"></div>
+
+  <div class="border-t border-shark-800 w-full"></div>
+
   <section
     class="flex flex-col gap-4
-    md:flex-row md:justify-between md:items-center"
+      md:flex-row md:justify-between md:items-center"
   >
-    <p class="text-center md:text-left">
+    <p class="text-center md:text-left text-shark-400">
       &copy; {year} Code Rouge Info — Tous droits réservés
     </p>
-    <div class="flex justify-center gap-6 text-2xl">
+
+    <div class="flex justify-center gap-6 text-xl">
       {
         SOCIAL_LINKS.map((link) => (
           <a
             href={link.href}
             target="_blank"
             aria-label={link.ariaLabel}
-            class="text-white text-2xl hover:text-red-600 transition-colors"
+            class="
+              text-shark-300
+              hover:text-red-orange-500
+              transition-colors duration-200
+            "
           >
             {<link.Icon />}
           </a>
