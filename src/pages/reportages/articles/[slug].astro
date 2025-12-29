@@ -22,6 +22,7 @@ const { article } = Astro.props as { article: ArticleInterface };
 if (!article) {
   return Astro.redirect('/404');
 }
+const authorsList = article.authors.join(', ');
 ---
 
 <Layout>
@@ -44,7 +45,9 @@ if (!article) {
           {article.title}
         </h1>
 
-        <p class="text-sm text-shark-400">Par {article.author}</p>
+        <p class="text-sm text-shark-400">
+          Crédits photo&nbsp;: {authorsList}
+        </p>
 
         <div class="flex justify-center mt-1">
           <span class="text-xs text-shark-500"
@@ -60,21 +63,21 @@ if (!article) {
           )
         }
       </header>
-      {
-        article.pictures?.length > 0 && (
-          <section class="mt-6">
-            <GalleryWithCarousel
-              pictures={article.pictures}
-              class="rounded-xl shadow-md"
-            />
-          </section>
-        )
-      }
       <section
         class="prose max-w-4xl mx-auto text-shark-100 leading-relaxed space-y-4"
       >
         {article.content.split('\n').map((paragraph, i) => <p>{paragraph}</p>)}
       </section>
     </article>
+    {
+      article.pictures?.length > 0 && (
+        <section class="mt-6">
+          <GalleryWithCarousel
+            pictures={article.pictures}
+            class="rounded-xl shadow-md"
+          />
+        </section>
+      )
+    }
   </div>
 </Layout>
