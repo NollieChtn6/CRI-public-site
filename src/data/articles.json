@@ -1,300 +1,882 @@
 [
-    {
-    "id": "2024-01-15-lorem-ipsum",
-    "title": "Lorem Ipsum Dolor Sit Amet #1",
-    "slug": "lorem-ipsum-dolor-sit-amet-1",
-    "author": "Jane Doe",
-    "date": "2024-01-15",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "coverPictureUrl": "https://picsum.photos/200/300",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "pictures": [
+  {
+    "id":"2023-02-21-accident-rcea-blanzy-71",
+    "title":"Trois morts dans un accident sur la RCEA à hauteur de Blanzy (71)",
+    "slug":"2023-02-21-accident-rcea-blanzy-71",
+    "authors":[
+      "Kévin Michet",
+      "Colomban Perreaut"
+    ],
+    "date":"2023-02-21",
+    "summary":"Deux poids-lourds se sont percutés et ont pris feu, emprisonnant leur conducteur à l'intérieur.",
+    "coverPictureUrl":"https://i.goopics.net/7g6x38.jpg",
+    "coverPictureAlt":"Deux sapeurs-pompiers en action près d'un poids-lourd en feu sur la RCEA",
+    "content":"Lundi soir, aux alentours de 18h30, dans une zone en travaux sur la RCEA à hauteur de Blanzy, une voiture et un poids-lourd sont entrés en collision frontale, avant que le poids-lourd ne percute un second véhicule. Les deux camions de 44 tonnes ont pris feu suite au choc, alors que leurs conducteurs se trouvaient à l'intérieur des cabines. Malgré un important déploiement des Sapeurs-Pompiers pour maîtriser les flammes, les chauffeurs ont été retrouvés brûlés, ainsi qu'une troisième personne accompagnant l'un d'eux. Dans la voiture, la conductrice, une femme de 32 ans, a été blessée et transportée au centre hospitalier de Montceau-les-Mines. Elle a pu sortir de son véhicule par ses propres moyens. Une enquête de police a été ouverte pour déterminer les circonstances de cet accident qui a coûté la vie à trois personnes.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/600/400",
-        "alt": "Sample Picture 1"
+        "url":"https://i.goopics.net/7g6x38.jpg",
+        "alt":"Deux sapeurs-pompiers en action près d'un poids-lourd en feu sur la RCEA"
       },
       {
-        "url": "https://picsum.photos/601/401",
-        "alt": "Sample Picture 2"
+        "url":"https://i.goopics.net/hcc9ob.jpg",
+        "alt":"Plusieurs camions de pompiers sur le site de l'accident"
       },
       {
-        "url": "https://picsum.photos/602/402",
-        "alt": "Sample Picture 3"
+        "url":"https://i.goopics.net/lxzik4.jpg",
+        "alt":"Deux sapeurs-pompiers en action près d'un poids-lourd en feu sur la RCEA"
       },
       {
-        "url": "https://picsum.photos/603/403",
-        "alt": "Sample Picture 4"
+        "url":"https://i.goopics.net/pibi8t.jpg",
+        "alt":"Deux sapeurs-pompiers face au lieu de l'accident"
       },
       {
-        "url": "https://picsum.photos/604/404",
-        "alt": "Sample Picture 5"
+        "url":"https://i.goopics.net/inqxcp.jpg",
+        "alt":"Trois sapeurs-pompiers face au lieu de l'accident"
       },
       {
-        "url": "https://picsum.photos/605/405",
-        "alt": "Sample Picture 6"
+        "url":"https://i.goopics.net/hlxgu7.jpg",
+        "alt":"Un policier et un sapeur-pompier face à l'un des poids-lourds accidentés encore fumant en travers de la voie"
+      },
+      {
+        "url":"https://i.goopics.net/ou2ya4.jpg",
+        "alt":"L'incendie provoqué par l'accident sur la RCEA"
+      },
+      {
+        "url":"https://i.goopics.net/i9j8tf.jpg",
+        "alt":"Un camion des sapeurs-pompiers derrière une voiture accidentée"
+      },
+      {
+        "url":"https://i.goopics.net/ljekos.jpg",
+        "alt":"Deux sapeurs-pompiers discutent en pointant du doigt le lieu de l'accident derrière le photographe"
       }
     ]
   },
   {
-    "id": "2024-02-10-lorem-ipsum-2",
-    "title": "Lorem Ipsum Dolor Sit Amet #2",
-    "slug": "lorem-ipsum-dolor-sit-amet-2",
-    "author": "John Smith",
-    "date": "2024-02-10",
-    "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "coverPictureUrl": "https://picsum.photos/201/301",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 2",
-    "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "pictures": [
+    "id":"2021-04-08-incendie-gironde",
+    "title":"Incendie en Gironde",
+    "slug":"2021-04-08-incendie-en-gironde",
+    "authors":[
+      "Dylan Bitterlin"
+    ],
+    "date":"2021-04-08",
+    "summary":"La Gironde a fait face à l'un des pires incendies de son histoire durant onze jours.",
+    "coverPictureUrl":"https://i.goopics.net/t97hmg.jpg",
+    "coverPictureAlt":"Lorem Ipsum Cover Picture 2",
+    "content":"1 800 soldats du feu venus de toute la France ont été mobilisés, plus de 36 000 personnes évacuées, des habitations et des campings détruits, des animaux brûlés. Un lourd bilan que cet incendie laisse derrière lui, mais aussi plus de 20 800 hectares de forêt réduits en cendres.\nÀ l'heure où nous écrivons ces lignes, le feu ne progresse plus, mais les sapeurs-pompiers sont toujours à pied d'œuvre et des milliers d'évacués peuvent désormais rentrer chez eux.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/603/403",
-        "alt": "Sample Picture 4"
+        "url":"https://i.goopics.net/01gr6r.jpg",
+        "alt":"Des véhicules de sapeurs-pompiers stationnent sur une route à proximité d'un incendie de forêt"
       },
       {
-        "url": "https://picsum.photos/604/404",
-        "alt": "Sample Picture 5"
+        "url":"https://i.goopics.net/yql5ln.jpg",
+        "alt":"Plusieurs sapeurs-pompiers luttent contre les flammes depuis la route, en pleine nuit"
       },
       {
-        "url": "https://picsum.photos/605/405",
-        "alt": "Sample Picture 6"
+        "url":"https://i.goopics.net/871jmj.jpg",
+        "alt":"Un hélicoptère des sapeurs-pompiers survole la zone de l'incendie, au milieu de la fumée"
       },
       {
-        "url": "https://picsum.photos/606/406",
-        "alt": "Sample Picture 7"
+        "url":"https://i.goopics.net/vlrorb.jpg",
+        "alt":"Un avion de la Sécurité civile en plein vol"
       },
       {
-        "url": "https://picsum.photos/607/407",
-        "alt": "Sample Picture 8"
+        "url":"https://i.goopics.net/betn8o.jpg",
+        "alt":"Des véhicules de sapeurs-pompiers circulent sur une route au milieu de la fumée"
       },
       {
-        "url": "https://picsum.photos/608/408",
-        "alt": "Sample Picture 9"
+        "url":"https://i.goopics.net/0acz8x.jpg",
+        "alt":"Un sapeur-pompier, de dos, répand de l'eau sur les cendres encore fumantes"
       },
       {
-        "url": "https://picsum.photos/609/409",
-        "alt": "Sample Picture 10"
+        "url":"https://i.goopics.net/lvbktg.jpg",
+        "alt":"Un sapeur-pomier, de dos, discute avec un collègue face à lui"
+      },
+      {
+        "url":"https://i.goopics.net/klnx0q.jpg",
+        "alt":"Un camion des sapeurs-pompiers roule sur une route"
+      },
+      {
+        "url":"https://i.goopics.net/uttk8x.jpg",
+        "alt":"Plusieurs véhicules de sapeurs-pompiers circulent sur une route"
+      },
+      {
+        "url":"https://i.goopics.net/att25j.jpg",
+        "alt":"Plusieurs véhicules de sapeurs-pompiers circulent sur une route"
+      },
+      {
+        "url":"https://i.goopics.net/7tle3h.jpg",
+        "alt":"Deux véhicules de sapeurs-pompiers stationnés de part et d'autre d'une route, au milieu de la fumée ; au centre, des sapeurs-pompiers en uniforme discutent"
+      },
+      {
+        "url":"https://i.goopics.net/1cem3v.jpg",
+        "alt":"Deux véhicules de sapeurs-pompiers combattent les flammes depuis le bord de la route, au milieu de la forêt"
+      },
+      {
+        "url":"https://i.goopics.net/t97hmg.jpg",
+        "alt":"Un sapeur-pompier, de dos, marche vers un camion stationné plus loin sur la route, au milieu de la fumée"
+      },
+      {
+        "url":"https://i.goopics.net/3djxt7.jpg",
+        "alt":"Des véhicules de sapeurs-pompiers curculent sur une route au milieu de véhicules de la police"
+      },
+      {
+        "url":"https://i.goopics.net/q8t6mt.jpg",
+        "alt":"Un agent de la police municipale, de dos, indique une directio vers la gauche à deux sapeurs-pompiers qui arrivent vers lui dans un camion"
       }
     ]
   },
   {
-    "id": "2024-03-05-lorem-ipsum-3",
-    "title": "Lorem Ipsum Dolor Sit Amet #3",
-    "slug": "lorem-ipsum-dolor-sit-amet-3",
-    "author": "Alice Martin",
-    "date": "2024-03-05",
-    "summary": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "coverPictureUrl": "https://picsum.photos/202/302",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 3",
-    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-    "pictures": [
+    "id":"2022-08-17-incendie-soulac-sur-mer",
+    "title":"Incendie à Soulac-sur-Mer (33)",
+    "slug":"2022-08-17-incendie-soulac-sur-mer",
+    "authors":[
+      "Erwan Egreteau"
+    ],
+    "date":"2022-08-17",
+    "summary":"Un départ de feu se déclare sur la commune de Soulac-sur-Mer alors que le département est placé en vigilance rouge, le week-end du 6 août.",
+    "coverPictureUrl":"https://i.goopics.net/8yrb6i.jpg",
+    "coverPictureAlt":"Deux sapeurs-pompiers en uniforme, de dos, marchent vers un camion",
+    "content":"En nombre, les sapeurs-pompiers sont dépêchés sur place, sur terre mais aussi dans les airs. Un Poste de Commandement est directement mis en place. Pas moins de 30 hectares sont partis en fumée sur cet incendie.\nQuelques heures plus tard, un second incendie de forêt est signalé en bordure de la départementale 1215 sur la commune de Queyrac. Déjà engagés sur l'incendie de Soulac, et de façon conséquente sur celui de Landiras, deux colonnes de renforts extra-départementaux (Colonne Ouest) viendront prêter main forte aux pompiers Girondins.\nLà aussi, un second PC est mis en place. 17 hectares sont partis en fumée. La gendarmerie, épaulé par la cellule RCCIEN (Recherche des Causes et des Circonstances des Incendies d'Espaces Naturels) ont ouvert une enquête afin de déterminer les causes de cet incendie.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/606/406",
-        "alt": "Sample Picture 7"
+        "url":"https://i.goopics.net/8yrb6i.jpg",
+        "alt":"Deux sapeurs-pompiers du Cher en uniforme, de dos, marchent vers un camion"
       },
       {
-        "url": "https://picsum.photos/607/407",
-        "alt": "Sample Picture 8"
+        "url":"https://i.goopics.net/lo1bpp.jpg",
+        "alt":"Plusieurs sapeurs-pompiers du Cher en uniforme discutent près d'un camion"
       },
       {
-        "url": "https://picsum.photos/608/408",
-        "alt": "Sample Picture 9"
+        "url":"https://i.goopics.net/sd1vk3.jpg",
+        "alt":"Portrait d'un sapeur-pompier regardant à travers la vitre d'un camion, le bas du visage protégé par son équipement et les lunettes de protection relevées sur son casque"
       },
       {
-        "url": "https://picsum.photos/609/409",
-        "alt": "Sample Picture 10"
+        "url":"https://i.goopics.net/d4a979.jpg",
+        "alt":"Des véhicules de sapeurs-pompiers circulent sur une route à proximité de l'incendie"
       },
       {
-        "url": "https://picsum.photos/610/410",
-        "alt": "Sample Picture 11"
+        "url":"https://i.goopics.net/6feevo.jpg",
+        "alt":"L'arrière d'un camion des sapeurs-pompiers au milieu de la fumée"
       },
       {
-        "url": "https://picsum.photos/611/411",
-        "alt": "Sample Picture 12"
+        "url":"https://i.goopics.net/5aa72w.jpg",
+        "alt":"Un sapeur-pompier discute avec des collègues à travers la vitre d'un véhicule ; en arrière-plan, la forêt brûle"
+      },
+      {
+        "url":"https://i.goopics.net/kw9e5q.jpg",
+        "alt":"Deux véhicules des sapeurs-pompiers stationnent au bord d'une route au milieu de la fumée"
+      },
+      {
+        "url":"https://i.goopics.net/9im7wi.jpg",
+        "alt":"Un avion de la Sécurité civile largue de lu retardant sur l'incendie"
+      },
+      {
+        "url":"https://i.goopics.net/kkyh3u.jpg",
+        "alt":"Un hélicoptère survole la zone de l'incendie"
+      },
+      {
+        "url":"https://i.goopics.net/3ctej3.jpg",
+        "alt":"Un sapeur-pompier de profil en uniforme tenant une carte dans la main gauche indique une direction vers la droite à un véhicule de sapeurs-pompiers en face de lui"
+      },
+      {
+        "url":"https://i.goopics.net/2a9e8w.jpg",
+        "alt":"En pleine nuit, une succession de véhicules de sapeurs-pompiers circulent sur une route avec les gyrophares allumés"
+      },
+      {
+        "url":"https://i.goopics.net/fbdfka.jpg",
+        "alt":"Un gendarme de dos, fait un signe à son collègue dans une voiture de gendarmerie à côté de lui"
+      },
+      {
+        "url":"https://i.goopics.net/g19oam.jpg",
+        "alt":"Un avion de la Sécurité civile largue de lu retardant sur l'incendie"
+      },
+      {
+        "url":"https://i.goopics.net/0f3p2m.jpg",
+        "alt":"Un sapeur-pompier de dos lutte contre les flammes depuis un camion"
+      },
+      {
+        "url":"https://i.goopics.net/2pmkj5.jpg",
+        "alt":"Des véhicules de sapeurs-pompiers luttent contre les flammes depuis le bord de la route ; deux sapeurs-pompiers se tiennent debout à proximité sur la route"
+      },
+      {
+        "url":"https://i.goopics.net/605iuh.jpg",
+        "alt":"Deeux véhicules de sapeurs-pompiers circulent sur la route ; en arrière-plan, la forêt brûle."
       }
     ]
   },
   {
-    "id": "2024-04-12-lorem-ipsum-4",
-    "title": "Lorem Ipsum Dolor Sit Amet #4",
-    "slug": "lorem-ipsum-dolor-sit-amet-4",
-    "author": "Bob Keller",
-    "date": "2024-04-12",
-    "summary": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "coverPictureUrl": "https://picsum.photos/203/303",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 4",
-    "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "pictures": [
+    "id":"2016-08-10-depart-de-feu-rognac-13",
+    "title":"Départ de feu à Rognac (13)",
+    "slug":"2016-08-10-depart-de-feu-rognac-13",
+    "authors":[
+      "Romain Bruneau"
+    ],
+    "date":"2016-08-10",
+    "summary":"En début d'après-midi, peu après le feu de forêt de Fos-sur-Mer, un départ de feu est signalé en pleine pinède à Rognac.",
+    "coverPictureUrl":"https://i.goopics.net/bteqvd.jpg",
+    "coverPictureAlt":"Un Canadair survole la zone de l'incendie en largant de l'eau",
+    "content":"Avec le mistral, le feu s'est rapidement étendu sur Vitrolles, poussant les habitants de certains quartiers à évacuer. Actuellement, le feu a consumé plus de 1 000 hectares ; un panache de fumée est visible depuis tout le département, plongeant par la même occasion Marseille dans l'obscurité.\nDes renforts extra-départementaux sont présents ainsi que 2 Canadairs, 3 Trackers et 1 Dash8.\nLes habitations aux alentours sont en cours d'évacuation.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/609/409",
-        "alt": "Sample Picture 10"
+        "url":"https://i.goopics.net/vxhjpb.jpg",
+        "alt":"Les flammes dévorent la pinède"
       },
       {
-        "url": "https://picsum.photos/610/410",
-        "alt": "Sample Picture 11"
+        "url":"https://i.goopics.net/1kjxiy.jpg",
+        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
       },
       {
-        "url": "https://picsum.photos/611/411",
-        "alt": "Sample Picture 12"
+        "url":"https://i.goopics.net/bteqvd.jpg",
+        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
       },
       {
-        "url": "https://picsum.photos/612/412",
-        "alt": "Sample Picture 13"
+        "url":"https://i.goopics.net/cl396e.jpg",
+        "alt":"Un avion de la sécurité civile largue du retardant sur l'incendie"
       },
       {
-        "url": "https://picsum.photos/613/413",
-        "alt": "Sample Picture 14"
+        "url":"https://i.goopics.net/drv5mu.jpg",
+        "alt":"Un hélicoptère de la sécurité civile survole la zone de l'incendie"
       },
       {
-        "url": "https://picsum.photos/614/414",
-        "alt": "Sample Picture 15"
+        "url":"https://i.goopics.net/t616ly.jpg",
+        "alt":"Les flammes dévorent la pinède"
+      },
+      {
+        "url":"https://i.goopics.net/q9tyv5.jpg",
+        "alt":"Le plateau de Rognac et de Vitrolles sous un épais nuage de fumée noire"
       }
     ]
   },
   {
-    "id": "2024-05-20-lorem-ipsum-5",
-    "title": "Lorem Ipsum Dolor Sit Amet #5",
-    "slug": "lorem-ipsum-dolor-sit-amet-5",
-    "author": "Jane Doe",
-    "date": "2024-05-20",
-    "summary": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    "coverPictureUrl": "https://picsum.photos/204/304",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 5",
-    "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    "pictures": [
+    "id":"2019-08-04-feu-de-broussailles-morieres-les-avignon-84",
+    "title":"Feu de broussailles à Morières-lès-Avignon (84)",
+    "slug":"2019-08-04-feu-de-broussailles-morieres-les-avignon-84",
+    "authors":[
+      "Matthieu Lacroix"
+    ],
+    "date":"2019-08-04",
+    "summary":"Ce vendredi 2 août, en début d'après-midi, un feu de broussailles s'est déclenché sur la commune de Morières-lès-Avignon.",
+    "coverPictureUrl":"https://i.goopics.net/gxlysc.jpg",
+    "coverPictureAlt":"Sapeurs-pompiers intervenant sur un feu de broussailles à Morières-lès-Avignon",
+    "content":"Notre photographe était en immersion avec le SDIS 84, au cœur du quotidien des soldats du feu.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/612/412",
-        "alt": "Sample Picture 13"
+        "url":"https://i.goopics.net/gxlysc.jpg",
+        "alt":"Deux sapeurs-pompiers accroupis en action sur le feu de broussailles"
       },
       {
-        "url": "https://picsum.photos/613/413",
-        "alt": "Sample Picture 14"
+        "url":"https://i.goopics.net/ba9gon.jpg",
+        "alt":"Un sapeur-pompier debout au milieu de la végétation, le visage protégé par son équipement, porte un tuyau sur son épaule"
       },
       {
-        "url": "https://picsum.photos/614/414",
-        "alt": "Sample Picture 15"
+        "url":"https://i.goopics.net/xpihyr.jpg",
+        "alt":"Un sapeur-pompier de dos, transporte sur son dos plusieurs tuyaux d'incendie"
       },
       {
-        "url": "https://picsum.photos/615/415",
-        "alt": "Sample Picture 16"
+        "url":"https://i.goopics.net/a2ky2p.jpg",
+        "alt":"Un sapeur-pompier en action au milieu de la végétation"
       },
       {
-        "url": "https://picsum.photos/616/416",
-        "alt": "Sample Picture 17"
+        "url":"https://i.goopics.net/ojagjm.jpg",
+        "alt":"Deux sapeurs-pompiers, de dos, luttent contre les flammes qui dévorent la végétation face à eux"
       },
       {
-        "url": "https://picsum.photos/617/417",
-        "alt": "Sample Picture 18"
+        "url":"https://i.goopics.net/1z7ngu.jpg",
+        "alt":"eux sapeurs-pompiers, de dos, luttent contre les flammes qui dévorent la végétation face à eux"
       },
       {
-        "url": "https://picsum.photos/618/418",
-        "alt": "Sample Picture 19"
+        "url":"https://i.goopics.net/w13xr9.jpg",
+        "alt":"Plusieurs sapeurs-pompiers en action au milieu de la végétation"
       }
     ]
   },
   {
-    "id": "2024-06-18-lorem-ipsum-6",
-    "title": "Lorem Ipsum Dolor Sit Amet #6",
-    "slug": "lorem-ipsum-dolor-sit-amet-6",
-    "author": "John Smith",
-    "date": "2024-06-18",
-    "summary": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.",
-    "coverPictureUrl": "https://picsum.photos/205/305",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 6",
-    "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    "pictures": [
+    "id":"2025-06-17-jpo-base-chamonix-mont-blanc",
+    "title":"Journée portes ouvertes à la base de Chamonix Mont-Blanc",
+    "slug":"2025-06-17-jpo-base-chamonix-mont-blanc",
+    "authors":[
+      "Christophe Picut"
+    ],
+    "date":"2025-06-17",
+    "summary":"Ce week-end avait lieu la traditionnelle journée portes ouvertes de la base Chamonix Mont-Blanc.",
+    "coverPictureUrl":"https://i.goopics.net/8psuya.jpg",
+    "coverPictureAlt":"Un gendarme est héliporté lors d'une démonstration",
+    "content":"Un rendez-vous incontournable qui attire chaque année plusieurs centaines de visiteurs. Une journée rythmée par les démonstrations effectuées par la Sécurité Civile et la Gendarmerie Nationale grâce au personnel de bord.",
+    "pictures":[
       {
-        "url": "https://picsum.photos/617/417",
-        "alt": "Sample Picture 18"
+        "url":"https://i.goopics.net/lh1c69.jpg",
+        "alt":"Un hélicoptère de la gendarmerie en vol lors d'une démonstration ; un homme est héliporté grâce à un câble"
       },
       {
-        "url": "https://picsum.photos/618/418",
-        "alt": "Sample Picture 19"
+        "url":"https://i.goopics.net/alg8d6.jpg",
+        "alt":"Une équipe de gendarmes dans un hélicopètre en démonstration pour les visiteurs"
       },
       {
-        "url": "https://picsum.photos/619/419",
-        "alt": "Sample Picture 20"
+        "url":"https://i.goopics.net/pse3dz.jpg",
+        "alt":"Un hélicoptère de la Sécurité Civile en vol lors d'une démonstration"
       },
       {
-        "url": "https://picsum.photos/620/420",
-        "alt": "Sample Picture 21"
+        "url":"https://i.goopics.net/jotg9j.jpg",
+        "alt":"Un hélicoptère de la Sécurité Civile au sol, avec un agent debout à côté"
       },
       {
-        "url": "https://picsum.photos/621/421",
-        "alt": "Sample Picture 22"
+        "url":"https://i.goopics.net/gosppu.jpg",
+        "alt":"Vue d'ensemble de la base avec les visiteurs ; les hélicpotères de la gendarmerie et de la Sécurité Civile sont au sol"
       },
       {
-        "url": "https://picsum.photos/622/422",
-        "alt": "Sample Picture 23"
-      },
-            {
-        "url": "https://picsum.photos/620/420",
-        "alt": "Sample Picture 21"
+        "url":"https://i.goopics.net/cqq7iq.jpg",
+        "alt":"Un gendarme reçoit une décoration"
       },
       {
-        "url": "https://picsum.photos/621/421",
-        "alt": "Sample Picture 22"
+        "url":"https://i.goopics.net/zvchnr.jpg",
+        "alt":"Un hélicoptère de la gendarmerie au sol, avec un agent debout à côté"
       },
       {
-        "url": "https://picsum.photos/622/422",
-        "alt": "Sample Picture 23"
+        "url":"https://i.goopics.net/rvkiut.jpg",
+        "alt":"Un hélicoptère de la Sécurité Civile proche du sol lors d'une démonstration ; un agent se tient débout sur les patins de l'hélicoptère"
       },
       {
-        "url": "https://picsum.photos/623/423",
-        "alt": "Sample Picture 24"
+        "url":"https://i.goopics.net/8psuya.jpg",
+        "alt":"Un gendarme est héliporté lors d'une démonstration"
       }
     ]
   },
   {
-    "id": "2024-07-22-lorem-ipsum-7",
-    "title": "Lorem Ipsum Dolor Sit Amet #7",
-    "slug": "lorem-ipsum-dolor-sit-amet-7",
-    "author": "Alice Martin",
-    "date": "2024-07-22",
-    "summary": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    "coverPictureUrl": "https://picsum.photos/206/306",
-    "coverPictureAlt": "Lorem Ipsum Cover Picture 7",
-    "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    "pictures": [
+    "id":"2022-10-12-jpo-gendarmerie-haute-savoie",
+    "title":"Journée portes ouvertes de la Gendarmerie de Haute-Savoie",
+    "slug":"2022-10-12-jpo-gendarmerie-haute-savoie",
+    "authors":[
+      "Christophe Picut"
+    ],
+    "date":"2022-10-12",
+    "summary":"Retour en images sur la journée portes ouvertes de la gendarmerie de Haute-Savoie à Annecy qui a eu lieu en septembre.",
+    "coverPictureUrl":"https://i.goopics.net/8ykku3.jpg",
+    "coverPictureAlt":"Un motard de la gendarmerie en démonstration devant les visiteurs",
+    "content":"Lors de cette journée, la Gendarmerie a fait découvrir l'ensemble de ses métiers à travers différents stands et démonstrations comme le PSIG (Peloton de Surveillance et d'Intervention de la Gendarmerie), la PMO (Peloton Motorisé), le PGHM (Peloton de Gendarmerie de Haute Montagne) et bien d'autres encore. Notre équipe Image 74 était présente pour couvrir l'événement mais également pour tenir un stand sur lequel nos photographes ont pu répondre à toutes vos questions et exposer quelques-unes de leurs photos. Nos remerciements à l'ensemble des services de la gendarmerie pour l'accueil et cette belle journée !",
+    "pictures":[
       {
-        "url": "https://picsum.photos/620/420",
-        "alt": "Sample Picture 21"
+        "url":"https://i.goopics.net/8ykku3.jpg",
+        "alt":"n motard de la gendarmerie en démonstration devant les visiteurs"
       },
       {
-        "url": "https://picsum.photos/621/421",
-        "alt": "Sample Picture 22"
+        "url":"https://i.goopics.net/iq948h.jpg",
+        "alt":"Démonstration d'un sauvetage par hélicoptère"
       },
       {
-        "url": "https://picsum.photos/622/422",
-        "alt": "Sample Picture 23"
+        "url":"https://i.goopics.net/3n2lbk.jpg",
+        "alt":"Démonstration d'un sauvetage par hélicoptère"
       },
       {
-        "url": "https://picsum.photos/623/423",
-        "alt": "Sample Picture 24"
+        "url":"https://i.goopics.net/1o9gob.jpg",
+        "alt":"Un gendarme tenant son arme de service lors d'une démonstration"
       },
       {
-        "url": "https://picsum.photos/624/424",
-        "alt": "Sample Picture 25"
+        "url":"https://i.goopics.net/5eyt2p.jpg",
+        "alt":"Un gendarme explique le fonctionnement d'une arme à un jeune visiteur sur un stand de tir"
       },
       {
-        "url": "https://picsum.photos/625/425",
-        "alt": "Sample Picture 26"
+        "url":"https://i.goopics.net/150crt.jpg",
+        "alt":"Deux gendarmes en tenue de vol derrière le stand consacré à l'hélicoptère de la gendarmerie"
       },
       {
-        "url": "https://picsum.photos/626/426",
-        "alt": "Sample Picture 27"
+        "url":"https://i.goopics.net/2hkaw9.jpg",
+        "alt":"Deux gendaremes, de dos, assistent à un discours"
       },
       {
-        "url": "https://picsum.photos/627/427",
-        "alt": "Sample Picture 28"
+        "url":"https://i.goopics.net/ykjllr.jpg",
+        "alt":"Un gendarme de l'équipe cynophile en tenue d'intervention est accroupi, de profil, aux côtés de son chien"
       },
       {
-        "url": "https://picsum.photos/628/428",
-        "alt": "Sample Picture 29"
+        "url":"https://i.goopics.net/9rlrp5.jpg",
+        "alt":"Simulation d'une intervention face aux visiteurs"
       },
       {
-        "url": "https://picsum.photos/629/429",
-        "alt": "Sample Picture 30"
+        "url":"https://i.goopics.net/sr47o5.jpg",
+        "alt":"Un gendarme de l'équipe cynophile accroupi tient un bâton dans la main gauche ; son chien mord dans le bâton"
+      },
+      {
+        "url":"https://i.goopics.net/y3k5ae.jpg",
+        "alt":"Simulation d'une intervention en lien avec l'équipe cynophile"
+      }
+    ]
+  },
+  {
+    "id":"2021-01-20-gendarmerie-avoriaz-74",
+    "title":"Dans les coulisses de la gendarmerie d'Avoriaz (74)",
+    "slug":"2021-01-20-gendarmerie-avoriaz-74",
+    "authors":[
+      "Barbara Vaysse",
+      "Jérémy Bizzini"
+    ],
+    "date":"2021-01-20",
+    "summary":"L'équipe Image 74 a passé une journée avec les gendarmes du poste avancé de la gendarmerie d'Avoriaz.",
+    "coverPictureUrl":"https://i.goopics.net/xden6b.jpg",
+    "coverPictureAlt":"Reportage au sein de la gendarmerie d'Avoriaz en période hivernale",
+    "content":"En plus de leurs missions de maintien de l'ordre en réponse aux appels 17 (tapages nocturnes, violences sur la voie publique, etc.), les gendarmes effectuent, durant la saison d'hiver, des contrôles routiers (vérification de la conformité des équipements hiver, des papiers des véhicules et des automobilistes, ainsi que la recherche de stupéfiants).\nIls assurent également un rôle de prévention auprès des pratiquants de la montagne, notamment au vu des récentes chutes de neige et d'une météo favorisant l'instabilité du manteau neigeux, avec un risque d'avalanche de 4/5 le week-end dernier.\nLa gendarmerie, lors de ses patrouilles pédestres quotidiennes, manifeste un rôle de proximité primordial auprès des acteurs locaux de la station.\nPour leurs missions quotidiennes au sein de la station d'Avoriaz 1800 (Haute-Savoie), qui n'est pas accessible en véhicule l'hiver, les gendarmes sont équipés d'un engin à chenilles. Ils se déplacent également en raquettes ou en ski de randonnée pour se rendre sur les points de contrôle ou en intervention, que ce soit dans le village d'Avoriaz ou sur les pistes de la station.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/iiyqz2.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/yop6ak.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/kyo441.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/xi1z48.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/yahv65.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/xden6b.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/1je626.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/hjcmj5.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      },
+      {
+        "url":"https://i.goopics.net/oq89x4.jpg",
+        "alt":"Scène du reportage consacré à la gendarmerie d'Avoriaz"
+      }
+    ]
+  },
+  {
+    "id":"2017-12-02-20e-edition-salon-milipol",
+    "title":"20e édition du salon Milipol",
+    "slug":"2017-12-02-20e-edition-salon-milipol",
+    "authors":[
+      "Stefan Amarica"
+    ],
+    "date":"2017-12-02",
+    "summary":"La semaine dernière, la 20e édition du salon Milipol se tenait au parc des expositions de Villepinte.",
+    "coverPictureUrl":"https://i.goopics.net/c2u31h.jpg",
+    "coverPictureAlt":"Lorem Ipsum Cover Picture 7",
+    "content":"Réservé aux professionnels de la sécurité intérieure des États, Milipol a rassemblé institutions nationales et internationales, fabricants et diverses délégations venues en nombre pendant les 4 jours du salon.\nRetour en images avec l'inauguration du salon par Gérard Collomb, ministre de l'Intérieur et les principaux stands !",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/c2u31h.jpg",
+        "alt":"Sample Picture 21"
+      },
+      {
+        "url":"https://i.goopics.net/t2nnnn.jpg",
+        "alt":"Sample Picture 22"
+      },
+      {
+        "url":"https://i.goopics.net/2tt9wp.jpg",
+        "alt":"Sample Picture 23"
+      },
+      {
+        "url":"https://i.goopics.net/6euuao.jpg",
+        "alt":"Sample Picture 24"
+      },
+      {
+        "url":"https://i.goopics.net/59fd9w.jpg",
+        "alt":"Sample Picture 25"
+      },
+      {
+        "url":"https://i.goopics.net/kflhqq.jpg",
+        "alt":"Sample Picture 26"
+      },
+      {
+        "url":"https://i.goopics.net/zm5qgc.jpg",
+        "alt":"Sample Picture 27"
+      },
+      {
+        "url":"https://i.goopics.net/xef9ca.jpg",
+        "alt":"Sample Picture 28"
+      },
+      {
+        "url":"https://i.goopics.net/495rmn.jpg",
+        "alt":"Sample Picture 29"
+      }
+    ]
+  },
+  {
+    "id":"2017-12-02-20e-edition-salon-milipol",
+    "title":"20e édition du salon Milipol",
+    "slug":"2017-12-02-20e-edition-salon-milipol",
+    "authors":[
+      "Stefan Amarica"
+    ],
+    "date":"2017-12-02",
+    "summary":"La semaine dernière, la 20e édition du salon Milipol s'est tenue au parc des expositions de Villepinte.",
+    "coverPictureUrl":"https://i.goopics.net/c2u31h.jpg",
+    "coverPictureAlt":"Reportage réalisé lors de la 20e édition du salon Milipol à Villepinte",
+    "content":"Réservé aux professionnels de la sécurité intérieure des États, Milipol a rassemblé des institutions nationales et internationales, des fabricants ainsi que de nombreuses délégations venues en nombre durant les quatre jours du salon.\nRetour en images sur l'inauguration du salon par Gérard Collomb, alors ministre de l'Intérieur, et sur les principaux stands.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/c2u31h.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/t2nnnn.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/2tt9wp.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/6euuao.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/59fd9w.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/kflhqq.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/zm5qgc.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/xef9ca.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      },
+      {
+        "url":"https://i.goopics.net/495rmn.jpg",
+        "alt":"Scène du reportage consacré au salon Milipol"
+      }
+    ]
+  },
+  {
+    "id":"2020-11-12-protection-civile-paris-seine",
+    "title":"Avec les équipes de la Protection Civile Paris Seine",
+    "slug":"2020-11-12-protection-civile-paris-seine",
+    "authors":[
+      "Marc-Olivier Chataignier"
+    ],
+    "date":"2020-11-12",
+    "summary":"Immersion au cœur de l'équipe des bénévoles de la Protection Civile Paris Seine.",
+    "coverPictureUrl":"https://i.goopics.net/pvd4eg.jpg",
+    "coverPictureAlt":"Reportage réalisé avec les équipes de la Protection Civile Paris Seine",
+    "content":"Retour en images sur notre immersion avec les bénévoles de la Protection Civile Paris Seine lors de leurs missions d'assistance à la population, notamment le secours à personne et l'aide aux sans-abri.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/pvd4eg.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/fb9m47.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/bjhdr8.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/v1icue.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/7ok6pj.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/qghl88.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/p26tfa.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/3t6mfj.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/5q2r8u.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/li2ma3.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      },
+      {
+        "url":"https://i.goopics.net/hywof8.jpg",
+        "alt":"Scène issue du reportage avec la Protection Civile Paris Seine"
+      }
+    ]
+  },
+  {
+    "id":"2021-11-08-greenweez-maxi-race-annecy-74",
+    "title":"Plus de 200 secouristes mobilisés pour la Greenweez MaXi-Race à Annecy (74)",
+    "slug":"2021-11-08-greenweez-maxi-race-annecy-74",
+    "authors":[
+      "Kévin Michet",
+      "Colomban Perreaut"
+    ],
+    "date":"2021-11-08",
+    "summary":"Plus de 200 secouristes de la Croix-Rouge française mobilisés pour la Greenweez MaXi-Race à Annecy.",
+    "coverPictureUrl":"https://i.goopics.net/f5epb4.jpg",
+    "coverPictureAlt":"Reportage réalisé lors de la Greenweez MaXi-Race à Annecy",
+    "content":"Ambulances, postes de secours, PMA et PCO faisaient partie des nombreux moyens déployés pour le dispositif. Une base arrière logistique était également active pour les repas et l'hébergement des bénévoles. Les équipes de secours ont réalisé plusieurs dizaines d'interventions.\nNos remerciements à la Croix-Rouge française, à Thibaud et Bastien ainsi qu'à leurs équipes pour l'accueil.\nMerci également aux organisateurs de l'événement.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/lk6dk4.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/s9kngt.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/f5n2xy.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/iy68lw.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/j8wdex.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/nfhtuh.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/z3usvi.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/yg0ei5.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/hh55kq.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/a2jifn.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      },
+      {
+        "url":"https://i.goopics.net/f5epb4.jpg",
+        "alt":"Scène issue du reportage sur la Greenweez MaXi-Race"
+      }
+    ]
+  },
+  {
+    "id":"2020-02-10-13e-bca-exercice-medical-barkhane",
+    "title":"Le 13e BCA mobilisé pour un exercice médical de grande ampleur avant Barkhane",
+    "slug":"2020-02-10-13e-bca-exercice-medical-barkhane",
+    "authors":[
+      "Jérémy Bizzini"
+    ],
+    "date":"2020-02-10",
+    "summary":"Dans le cadre de sa préparation opérationnelle, le 13e Bataillon de chasseurs alpins a conduit un exercice Medichos d'envergure visant à évaluer les capacités des médecins, infirmiers et auxiliaires sanitaires appelés à être projetés sur l'opération Barkhane.",
+    "coverPictureUrl":"https://i.goopics.net/r46omj.jpg",
+    "coverPictureAlt":"Reportage réalisé lors d'un exercice médical du 13e BCA",
+    "content":"Le 13e Bataillon de chasseurs alpins a mené un entraînement de grande ampleur de type Medichos, destiné à évaluer les médecins, infirmiers et auxiliaires sanitaires qui seront projetés dans le cadre de l'opération Barkhane.\nCet exercice s'est déroulé en trois phases. La première consistait en la sécurisation d'un village, situation qui a ensuite dégénéré et donné lieu à un échange de tirs simulé entre les militaires du 13e BCA et des figurants jouant le rôle de groupes terroristes.\nÀ l'issue de cette phase, les blessés ont été pris en charge directement sur le terrain avant d'être évacués hors de la zone de contact. Toutes les victimes ont ensuite été transportées vers un Poste Médical Avancé, où leur état de santé a été stabilisé, avant une évacuation vers une antenne chirurgicale.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/ya9lxl.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/gk8v74.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/iivfyq.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/r46omj.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/8bgzv8.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/op49e1.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/9rr39u.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      },
+      {
+        "url":"https://i.goopics.net/aa9mqb.jpg",
+        "alt":"Scène issue du reportage sur un exercice du 13e BCA"
+      }
+    ]
+  },
+  {
+    "id":"2023-03-31-orion-23",
+    "title":"ORION 23 : un exercice interarmées de grande ampleur",
+    "slug":"2023-03-31-orion-23",
+    "authors":[
+      "David Guerre",
+      "Sébastien Rusque",
+      "Gwenael Hagen",
+      "Enzo Andrieu"
+    ],
+    "date":"2023-03-31",
+    "summary":"De février à mars 2023, les armées françaises ont participé à l'exercice ORION 23, un entraînement majeur réunissant l'Armée de Terre, l'Armée de l'Air et de l'Espace ainsi que la Marine nationale.",
+    "coverPictureUrl":"https://i.goopics.net/042al8.jpg",
+    "coverPictureAlt":"Reportage réalisé lors de l'exercice interarmées ORION 23",
+    "content":"L'exercice ORION 23 a mobilisé plusieurs composantes des forces armées françaises dans le cadre d'un entraînement interarmées de grande ampleur.\nCet exercice visait à renforcer la coordination entre les différentes forces, à tester les capacités opérationnelles et à entraîner les unités dans des scénarios proches des conditions réelles d'engagement.\nL'Armée de Terre, l'Armée de l'Air et de l'Espace ainsi que la Marine nationale ont travaillé conjointement afin d'améliorer leur interopérabilité et leur réactivité face à des situations complexes.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/imr75d.jpg",
+        "alt":"Scène issue du reportage sur l'exercice ORION 23"
+      },
+      {
+        "url":"https://i.goopics.net/042al8.jpg",
+        "alt":"Scène issue du reportage sur l'exercice ORION 23"
+      },
+      {
+        "url":"https://i.goopics.net/28svws.jpg",
+        "alt":"Scène issue du reportage sur l'exercice ORION 23"
+      },
+      {
+        "url":"https://i.goopics.net/stls5e.jpg",
+        "alt":"Scène issue du reportage sur l'exercice ORION 23"
+      },
+      {
+        "url":"https://i.goopics.net/ueoozi.jpg",
+        "alt":"Scène issue du reportage sur l'exercice ORION 23"
+      }
+    ]
+  },
+  {
+    "id":"2020-07-01-alerte-individu-arme-defense",
+    "title":"Alerte pour individu armé à La Défense : une vaste opération de sécurité",
+    "slug":"2020-07-01-alerte-individu-arme-defense",
+    "authors":[
+      "Marc-Olivier Chataignier"
+    ],
+    "date":"2020-07-01",
+    "summary":"Ce mardi 1er juillet 2020, une alerte signalant la présence d'un individu armé a entraîné l'évacuation partielle du quartier d'affaires de La Défense, à Paris, mobilisant d'importants moyens de sécurité.",
+    "coverPictureUrl":"https://i.goopics.net/a5vhv8.jpg",
+    "coverPictureAlt":"Reportage réalisé lors d'une opération de sécurité à La Défense",
+    "content":"En fin de matinée, la police a été alertée de la présence supposée d'un individu armé dans le quartier d'affaires de La Défense, conduisant à l'évacuation des lieux et à la mise en place d'un périmètre de sécurité par les forces de l'ordre. Après plusieurs heures de recherches, la zone a été rouverte au public sans qu'aucune personne suspecte ne soit identifiée ou interpellée, selon la préfecture de police de Paris. Les sapeurs-pompiers de Paris et des militaires de l'opération Sentinelle étaient également mobilisés.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/a5vhv8.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/7mb2rb.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/v93jqw.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/9d6a4p.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/eqy6v8.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/inp6ky.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      },
+      {
+        "url":"https://i.goopics.net/20r97t.jpg",
+        "alt":"Scène issue du reportage à La Défense"
+      }
+    ]
+  },
+  {
+    "id":"2019-secours-expo-2019",
+    "title":"Secours Expo 2019",
+    "slug":"secours-expo-2019",
+    "authors":[
+      "Stefan Amarica",
+      "Kévin Michet",
+      "Jérémy Bizzini",
+      "Ludovic Chiffoleau"
+    ],
+    "date":"2020-07-01",
+    "summary":"Le salon Secours Expo 2019 a ouvert ses portes au public il y a une semaine.",
+    "coverPictureUrl":"https://i.goopics.net/7upiu0.jpg",
+    "coverPictureAlt":"Reportage réalisé lors du salon Secours Expo 2019",
+    "content":"Ateliers, conférences, démonstrations et stands ont rythmé cette édition du salon. Retour en images sur l'événement.\nL'occasion pour nous de vous remercier d'être venus aussi nombreux sur notre stand et de saluer nos partenaires, sans qui rien n'aurait été possible.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/7upiu0.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/z0kw18.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/2s38oq.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/bmbm3m.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/uvey99.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/lyqi5p.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/3pnv36.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/jjczkr.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/mo3a0g.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/4frpq1.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/lhxgw0.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/a8mqm2.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/fl83kh.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/75g7ao.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      },
+      {
+        "url":"https://i.goopics.net/8ivha3.jpg",
+        "alt":"Scène issue du reportage au salon Secours Expo 2019"
       }
     ]
   }

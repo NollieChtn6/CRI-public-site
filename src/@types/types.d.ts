@@ -21,7 +21,7 @@ export interface ArticleInterface {
   id: string;
   title: string;
   slug: string;
-  author: string;
+  authors: string[];
   date: string;
   summary: string;
   coverPictureUrl: string;

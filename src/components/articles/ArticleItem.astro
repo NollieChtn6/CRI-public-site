@@ -4,10 +4,9 @@ import { IoArrowForward } from 'react-icons/io5';
 import type { ArticleInterface } from '@/@types/types';
 
 const {
-  id,
   title,
   slug,
-  author,
+  authors,
   date,
   summary,
   coverPictureUrl,
@@ -15,10 +14,11 @@ const {
 } = Astro.props as ArticleInterface;
 
 const ArrowIcon = IoArrowForward;
+const authorsList = authors.join(', ');
 ---
 
 <article
-  class="flex flex-col md:flex-row gap-6 bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden md:h-64 hover:scale-105 transition-transform duration-200"
+  class="flex flex-col md:flex-row gap-6 bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden md:h-64"
 >
   <div class="md:w-1/3 shrink-0">
     <img
@@ -36,7 +36,7 @@ const ArrowIcon = IoArrowForward;
       </h2>
 
       <p class="text-sm text-shark-300">
-        Par {author} • {formatDate(date)}
+        Publié le&nbsp;: {formatDate(date)}
       </p>
 
       <p class="text-sm text-shark-200 line-clamp-3">
