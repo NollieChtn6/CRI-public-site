@@ -1,36 +1,48 @@
 ---
-import ArticleCard from '@/components/ArticleCard.astro';
-import articles from '@/data/articles.json';
+import type { ArticleInterface } from '@/@types/types';
+import ArticleCard from '@/components/articles/ArticleCard.astro';
 
-const latestArticles = [...articles]
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(0, 6);
+const { title, articles, section } = Astro.props as {
+  title: string;
+  articles: ArticleInterface[];
+  section: string;
+};
+
+if (!articles) {
+  throw new Error(
+    'Articles prop is required for PublicationsSection component'
+  );
+}
+
+if (!section) {
+  throw new Error('section prop is required for PublicationsSection component');
+}
 ---
 
 <section
   class="publications-section bg-shark-950 flex items-center justify-center py-16"
 >
   <div class="container space-y-10">
-    <h2 class="text-3xl font-bold text-shark-50 text-center">Actualités</h2>
+    <h2 class="text-3xl font-bold text-shark-50 text-center">
+      {title}
+    </h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {
-        latestArticles.map((article) => (
-          <ArticleCard
-            title={article.title}
-            slug={article.slug}
-            author={article.author}
-            date={article.date}
-            summary={article.summary}
-            coverPictureUrl={article.coverPictureUrl}
-            coverPictureAlt={article.coverPictureAlt}
-          />
-        ))
-      }
-    </div>
+    {
+      articles.length === 0 ? (
+        <p class="text-shark-300 text-center">
+          Aucun article publié pour le moment.
+        </p>
+      ) : (
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {articles.map((article) => (
+            <ArticleCard article={article} section={section} />
+          ))}
+        </div>
+      )
+    }
 
     <div class="flex justify-center pt-6">
-      <a href="/reportages/articles" class="nav-button">
+      <a href={`/${section}/articles`} class="nav-button">
         Voir tous les articles
       </a>
     </div>
