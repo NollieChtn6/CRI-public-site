@@ -1,0 +1,10 @@
+---
+import HeroCarouselClient from './HeroCarouselClient.tsx';
+import type { Picture } from '@/@types/types';
+
+const { pictures } = Astro.props as {
+  pictures: Picture[];
+};
+---
+
+<HeroCarouselClient pictures={pictures} client:load />
