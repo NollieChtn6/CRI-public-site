@@ -59,3 +59,20 @@ export interface TimelineCardProps {
   iconName: string;
   Icon?: IconType;
 }
+
+export interface MarkdownModule {
+  default: string;
+  frontmatter: ArticleFrontmatter;
+  filename: string;
+}
+
+export interface ArticleFrontmatter {
+  slug: string;
+  title: string;
+  date: string;
+  authors: string[];
+  summary?: string;
+  coverPictureUrl?: string;
+  coverPictureAlt?: string;
+  tags?: string[];
+}

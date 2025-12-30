@@ -1,14 +1,26 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import ArticleItem from '@/components/articles/ArticleItem.astro';
-import articles from '@/data/articles.json';
+import type { ArticleFrontmatter, MarkdownModule } from '@/@types/types';
 
-if (!articles) {
-  throw new Error('Articles data not found');
-}
+const modules: Record<string, MarkdownModule> = import.meta.glob(
+  '@/data/prevention/*.md',
+  { eager: true }
+);
 
-const sortedArticles = [...articles]
-  .filter((article) => article.tags && article.tags.includes('prévention'))
+const articles: ArticleFrontmatter[] = Object.values(modules).map((mod) => ({
+  slug: mod.frontmatter.slug,
+  title: mod.frontmatter.title,
+  authors: mod.frontmatter.authors ?? [],
+  date: mod.frontmatter.date,
+  summary: mod.frontmatter.summary ?? '',
+  content: mod.default,
+  coverPictureUrl: mod.frontmatter.coverPictureUrl ?? '',
+  coverPictureAlt: mod.frontmatter.coverPictureAlt ?? '',
+  tags: mod.frontmatter.tags ?? []
+}));
+
+const sortedArticles = articles
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
   .slice(0, 6);
 ---
