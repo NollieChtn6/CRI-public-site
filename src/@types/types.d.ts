@@ -23,6 +23,7 @@ export interface ArticleInterface {
   slug: string;
   authors: string[];
   date: string;
+  tags: string[];
   summary: string;
   coverPictureUrl: string;
   coverPictureAlt: string;
@@ -33,18 +34,15 @@ export interface ArticleInterface {
 export interface Picture {
   url: string;
   alt: string;
+  caption?: string;
+  author?: string;
 }
 
 export interface GalleryInterface {
   id: string;
-  title: string;
   slug: string;
-  department: number;
-  date: string;
-  authors: string[];
+  title: string;
   description: string;
-  content: string;
-  tag: string;
   pictures: Picture[];
 }
 
