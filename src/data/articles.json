@@ -7,6 +7,7 @@
       "Kévin Michet",
       "Colomban Perreaut"
     ],
+    "tags": ["reportages"],
     "date":"2023-02-21",
     "summary":"Deux poids-lourds se sont percutés et ont pris feu, emprisonnant leur conducteur à l'intérieur.",
     "coverPictureUrl":"https://i.goopics.net/7g6x38.jpg",
@@ -58,6 +59,7 @@
     "authors":[
       "Dylan Bitterlin"
     ],
+    "tags": ["reportages"],
     "date":"2021-04-08",
     "summary":"La Gironde a fait face à l'un des pires incendies de son histoire durant onze jours.",
     "coverPictureUrl":"https://i.goopics.net/t97hmg.jpg",
@@ -133,6 +135,7 @@
     "authors":[
       "Erwan Egreteau"
     ],
+    "tags": ["reportages"],
     "date":"2022-08-17",
     "summary":"Un départ de feu se déclare sur la commune de Soulac-sur-Mer alors que le département est placé en vigilance rouge, le week-end du 6 août.",
     "coverPictureUrl":"https://i.goopics.net/8yrb6i.jpg",
@@ -212,6 +215,7 @@
     "authors":[
       "Romain Bruneau"
     ],
+    "tags": ["reportages"],
     "date":"2016-08-10",
     "summary":"En début d'après-midi, peu après le feu de forêt de Fos-sur-Mer, un départ de feu est signalé en pleine pinède à Rognac.",
     "coverPictureUrl":"https://i.goopics.net/bteqvd.jpg",
@@ -255,6 +259,7 @@
     "authors":[
       "Matthieu Lacroix"
     ],
+    "tags": ["reportages"],
     "date":"2019-08-04",
     "summary":"Ce vendredi 2 août, en début d'après-midi, un feu de broussailles s'est déclenché sur la commune de Morières-lès-Avignon.",
     "coverPictureUrl":"https://i.goopics.net/gxlysc.jpg",
@@ -298,6 +303,7 @@
     "authors":[
       "Christophe Picut"
     ],
+    "tags": ["reportages"],
     "date":"2025-06-17",
     "summary":"Ce week-end avait lieu la traditionnelle journée portes ouvertes de la base Chamonix Mont-Blanc.",
     "coverPictureUrl":"https://i.goopics.net/8psuya.jpg",
@@ -349,6 +355,7 @@
     "authors":[
       "Christophe Picut"
     ],
+    "tags": ["reportages"],
     "date":"2022-10-12",
     "summary":"Retour en images sur la journée portes ouvertes de la gendarmerie de Haute-Savoie à Annecy qui a eu lieu en septembre.",
     "coverPictureUrl":"https://i.goopics.net/8ykku3.jpg",
@@ -409,6 +416,7 @@
       "Barbara Vaysse",
       "Jérémy Bizzini"
     ],
+    "tags": ["reportages"],
     "date":"2021-01-20",
     "summary":"L'équipe Image 74 a passé une journée avec les gendarmes du poste avancé de la gendarmerie d'Avoriaz.",
     "coverPictureUrl":"https://i.goopics.net/xden6b.jpg",
@@ -460,6 +468,7 @@
     "authors":[
       "Stefan Amarica"
     ],
+    "tags": ["reportages"],
     "date":"2017-12-02",
     "summary":"La semaine dernière, la 20e édition du salon Milipol se tenait au parc des expositions de Villepinte.",
     "coverPictureUrl":"https://i.goopics.net/c2u31h.jpg",
@@ -505,63 +514,13 @@
     ]
   },
   {
-    "id":"2017-12-02-20e-edition-salon-milipol",
-    "title":"20e édition du salon Milipol",
-    "slug":"2017-12-02-20e-edition-salon-milipol",
-    "authors":[
-      "Stefan Amarica"
-    ],
-    "date":"2017-12-02",
-    "summary":"La semaine dernière, la 20e édition du salon Milipol s'est tenue au parc des expositions de Villepinte.",
-    "coverPictureUrl":"https://i.goopics.net/c2u31h.jpg",
-    "coverPictureAlt":"Reportage réalisé lors de la 20e édition du salon Milipol à Villepinte",
-    "content":"Réservé aux professionnels de la sécurité intérieure des États, Milipol a rassemblé des institutions nationales et internationales, des fabricants ainsi que de nombreuses délégations venues en nombre durant les quatre jours du salon.\nRetour en images sur l'inauguration du salon par Gérard Collomb, alors ministre de l'Intérieur, et sur les principaux stands.",
-    "pictures":[
-      {
-        "url":"https://i.goopics.net/c2u31h.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/t2nnnn.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/2tt9wp.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/6euuao.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/59fd9w.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/kflhqq.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/zm5qgc.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/xef9ca.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      },
-      {
-        "url":"https://i.goopics.net/495rmn.jpg",
-        "alt":"Scène du reportage consacré au salon Milipol"
-      }
-    ]
-  },
-  {
     "id":"2020-11-12-protection-civile-paris-seine",
     "title":"Avec les équipes de la Protection Civile Paris Seine",
     "slug":"2020-11-12-protection-civile-paris-seine",
     "authors":[
       "Marc-Olivier Chataignier"
     ],
+    "tags": ["reportages"],
     "date":"2020-11-12",
     "summary":"Immersion au cœur de l'équipe des bénévoles de la Protection Civile Paris Seine.",
     "coverPictureUrl":"https://i.goopics.net/pvd4eg.jpg",
@@ -622,6 +581,7 @@
       "Kévin Michet",
       "Colomban Perreaut"
     ],
+    "tags": ["reportages"],
     "date":"2021-11-08",
     "summary":"Plus de 200 secouristes de la Croix-Rouge française mobilisés pour la Greenweez MaXi-Race à Annecy.",
     "coverPictureUrl":"https://i.goopics.net/f5epb4.jpg",
@@ -681,6 +641,7 @@
     "authors":[
       "Jérémy Bizzini"
     ],
+    "tags": ["reportages"],
     "date":"2020-02-10",
     "summary":"Dans le cadre de sa préparation opérationnelle, le 13e Bataillon de chasseurs alpins a conduit un exercice Medichos d'envergure visant à évaluer les capacités des médecins, infirmiers et auxiliaires sanitaires appelés à être projetés sur l'opération Barkhane.",
     "coverPictureUrl":"https://i.goopics.net/r46omj.jpg",
@@ -731,6 +692,7 @@
       "Gwenael Hagen",
       "Enzo Andrieu"
     ],
+    "tags": ["reportages"],
     "date":"2023-03-31",
     "summary":"De février à mars 2023, les armées françaises ont participé à l'exercice ORION 23, un entraînement majeur réunissant l'Armée de Terre, l'Armée de l'Air et de l'Espace ainsi que la Marine nationale.",
     "coverPictureUrl":"https://i.goopics.net/042al8.jpg",
@@ -766,6 +728,7 @@
     "authors":[
       "Marc-Olivier Chataignier"
     ],
+    "tags": ["reportages"],
     "date":"2020-07-01",
     "summary":"Ce mardi 1er juillet 2020, une alerte signalant la présence d'un individu armé a entraîné l'évacuation partielle du quartier d'affaires de La Défense, à Paris, mobilisant d'importants moyens de sécurité.",
     "coverPictureUrl":"https://i.goopics.net/a5vhv8.jpg",
@@ -812,6 +775,7 @@
       "Jérémy Bizzini",
       "Ludovic Chiffoleau"
     ],
+    "tags": ["reportages"],
     "date":"2020-07-01",
     "summary":"Le salon Secours Expo 2019 a ouvert ses portes au public il y a une semaine.",
     "coverPictureUrl":"https://i.goopics.net/7upiu0.jpg",
@@ -877,6 +841,60 @@
       {
         "url":"https://i.goopics.net/8ivha3.jpg",
         "alt":"Scène issue du reportage au salon Secours Expo 2019"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+    {
+    "id":"2016-08-12-prevention-depart-de-feu-rognac-13",
+    "title":"Test article prévention",
+    "slug":"2016-08-12-prevention-depart-de-feu-rognac-13",
+    "authors":[
+      "Romain Bruneau"
+    ],
+    "tags": ["reportages", "prévention"],
+    "date":"2016-08-12",
+    "summary":"En début d'après-midi, peu après le feu de forêt de Fos-sur-Mer, un départ de feu est signalé en pleine pinède à Rognac.",
+    "coverPictureUrl":"https://i.goopics.net/bteqvd.jpg",
+    "coverPictureAlt":"Un Canadair survole la zone de l'incendie en largant de l'eau",
+    "content":"Avec le mistral, le feu s'est rapidement étendu sur Vitrolles, poussant les habitants de certains quartiers à évacuer. Actuellement, le feu a consumé plus de 1 000 hectares ; un panache de fumée est visible depuis tout le département, plongeant par la même occasion Marseille dans l'obscurité.\nDes renforts extra-départementaux sont présents ainsi que 2 Canadairs, 3 Trackers et 1 Dash8.\nLes habitations aux alentours sont en cours d'évacuation.",
+    "pictures":[
+      {
+        "url":"https://i.goopics.net/vxhjpb.jpg",
+        "alt":"Les flammes dévorent la pinède"
+      },
+      {
+        "url":"https://i.goopics.net/1kjxiy.jpg",
+        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
+      },
+      {
+        "url":"https://i.goopics.net/bteqvd.jpg",
+        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
+      },
+      {
+        "url":"https://i.goopics.net/cl396e.jpg",
+        "alt":"Un avion de la sécurité civile largue du retardant sur l'incendie"
+      },
+      {
+        "url":"https://i.goopics.net/drv5mu.jpg",
+        "alt":"Un hélicoptère de la sécurité civile survole la zone de l'incendie"
+      },
+      {
+        "url":"https://i.goopics.net/t616ly.jpg",
+        "alt":"Les flammes dévorent la pinède"
+      },
+      {
+        "url":"https://i.goopics.net/q9tyv5.jpg",
+        "alt":"Le plateau de Rognac et de Vitrolles sous un épais nuage de fumée noire"
       }
     ]
   }
