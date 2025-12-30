@@ -1,5 +1,9 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+
+import { FiExternalLink } from 'react-icons/fi';
+
+const ExternalLinkIcon = FiExternalLink;
 ---
 
 <Layout>
@@ -14,43 +18,148 @@ import Layout from '@/layouts/Layout.astro';
       </p>
     </header>
 
-    <section class="space-y-12 text-shark-100">
+    <section
+      class="space-y-12 text-shark-100 prose prose-invert max-w-4xl mx-auto
+                    prose-a:text-red-500 hover:prose-a:text-red-600 hover:prose-a:underline
+                    prose-ul:pl-6 prose-li:marker:text-red-500"
+    >
       <div class="space-y-4">
         <h2 class="text-2xl font-semibold text-turbo-400">
-          Lorem ipsum dolor sit amet
+          Qu&rsquo;appelle-t-on incendie de forêt et de végétation&nbsp;?
         </h2>
-        <p class="text-shark-200">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        <p>
+          Les incendies concernent la forêt mais également de nombreuses autres
+          formes de végétation. Très fréquemment, les départs de feu ont
+          d&rsquo;ailleurs lieu hors du milieu forestier : en bord de voies
+          routières ou ferroviaires, dans des friches, champs, jardins, etc. La
+          dénomination vaut aussi pour les incendies qui touchent le maquis, la
+          garrigue ou encore les landes.
         </p>
-        <p class="text-shark-200">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+        <iframe
+          class="w-full h-64 sm:h-96 rounded-lg shadow-lg"
+          src="https://www.youtube.com/embed/lIvxaQh-rYk"
+          title="Vidéo explicative"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+
+      <div class="space-y-6">
+        <h2 class="text-2xl font-semibold text-turbo-400">
+          Quelles en sont les causes&nbsp;?
+        </h2>
+        <p>
+          9 feux sur 10 sont d&rsquo;origine humaine. Les départs de feux sont
+          souvent dus à des mégots de cigarette jetés, des barbecues ou des feux
+          de camp mal éteints, des brûlages de déchets, des pétards, des feux
+          d&rsquo;artifice, ou encore à des travaux générateurs
+          d&rsquo;étincelles, réalisés par des particuliers ou des
+          professionnels.
         </p>
+        <div
+          class="flex items-center bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-lg shadow-md space-x-3"
+        >
+          <span class="text-yellow-400 text-2xl">⚡</span>
+          <p class="text-yellow-800 font-semibold">
+            1 feu sur 10 est causé par la foudre.
+          </p>
+        </div>
+        <iframe
+          class="w-full h-64 sm:h-96 rounded-lg shadow-lg"
+          src="https://www.youtube.com/embed/GxMqCi-NLmk"
+          title="Vidéo causes incendies"
+          allowfullscreen></iframe>
       </div>
 
       <div class="space-y-4">
         <h2 class="text-2xl font-semibold text-turbo-400">
-          Risques et situations critiques
+          Quelles sont les conséquences&nbsp;?
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-          odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
+          Les incendies de forêts peuvent mettre gravement en danger la
+          population, tant les résidents que les touristes. Ils peuvent
+          également causer la mort de pompiers qui luttent contre le feu. Par
+          ailleurs, la propagation des flammes provoque d&rsquo;importants
+          dommages aux biens.
         </p>
+        <ul class="list-disc">
+          <li>
+            Sanitaires à long terme : pollution de l&rsquo;air, sols et eaux par
+            les cendres.
+          </li>
+          <li>
+            Environnementales : atteinte à la biodiversité, dégagement de CO2.
+          </li>
+          <li>
+            Économiques : perte de production agricole et de bois, baisse de
+            tourisme.
+          </li>
+          <li>Sociales : pertes de lieux de sociabilité.</li>
+        </ul>
       </div>
+
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold text-turbo-400">
+          La Météo des forêts
+        </h2>
+        <p>
+          À la suite des incendies de l'été 2022, un nouveau dispositif
+          permettant d&rsquo;informer quotidiennement le grand public sur le
+          risque de feux de forêts au niveau départemental a été créé : la Météo
+          des forêts.
+        </p>
+        <p>
+          Météo-France, avec l'aide de l'ONF, publie tous les jours de juin à
+          septembre deux cartes indiquant le niveau de danger : faible (vert),
+          modéré (jaune), élevé (orange), très élevé (rouge).
+        </p>
+        <a
+          href="https://www.meteofrance.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cta-button"
+        >
+          <span class="no-underline">Consulter les cartes</span>
+          <ExternalLinkIcon />
+        </a>
+        <img
+          src="https://i.goopics.net/p1r76j.jpg"
+          alt="Deux pompiers luttent contre un incendie de forêt"
+          class="rounded-lg shadow-lg"
+        />
+      </div>
+
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold text-turbo-400">
+          Prévention et PPRif
+        </h2>
+        <p>
+          Dans les communes protégées par un plan de prévention des risques
+          d&rsquo;incendie de forêt (PPRif), des mesures peuvent réduire la
+          vulnérabilité des constructions et imposer des aménagements.
+        </p>
+        <ul class="list-disc">
+          <li>Choix des matériaux, ventilation, etc.</li>
+          <li>
+            Aménagements pour constructions existantes : volets, gouttières,
+            toiture, aération.
+          </li>
+          <li>
+            Dimensionner les voies d&rsquo;accès pour permettre aux camions de
+            pompiers de circuler.
+          </li>
+          <li>Débroussaillement obligatoire dans certaines zones.</li>
+        </ul>
+      </div>
+
       <div
-        class="bg-shark-900 hover:bg-shark-800 rounded-2xl p-6 sm:p-8 shadow-md transition-colors duration-200"
+        class="bg-shark-300 border-l-4 border-red-500 p-6 rounded-lg shadow-md"
       >
-        <h3 class="text-xl font-semibold mb-2 text-red-orange-500">
-          À retenir
-        </h3>
-        <p class="text-shark-200">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          sodales ligula in libero. Sed dignissim lacinia nunc.
+        <h3 class="text-xl font-semibold text-red-500 mb-2">À retenir</h3>
+        <p>
+          Le débroussaillement et les aménagements adaptés sont essentiels pour
+          protéger les personnes, les biens et l&rsquo;environnement face aux
+          incendies.
         </p>
       </div>
     </section>
