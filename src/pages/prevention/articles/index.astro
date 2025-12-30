@@ -20,9 +20,9 @@ const articles: ArticleFrontmatter[] = Object.values(modules).map((mod) => ({
   tags: mod.frontmatter.tags ?? []
 }));
 
-const sortedArticles = articles
-  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-  .slice(0, 6);
+const sortedArticles = articles.sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
 ---
 
 <Layout>
