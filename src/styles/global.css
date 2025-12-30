@@ -250,5 +250,9 @@
 }
 
 .nav-button {
-  @apply inline-block bg-dark-blue-800 text-primary-foreground px-8 py-4 rounded-md hover:scale-105 transition-all hover:cursor-pointer  shadow hover:bg-dark-blue-900;
+  @apply inline-block bg-dark-blue-800 text-primary-foreground px-8 py-4 rounded-md hover:scale-105 transition-all hover:cursor-pointer shadow hover:bg-dark-blue-900;
+}
+
+.back-button {
+  @apply inline-flex items-center text-sm text-dark-blue-400 hover:text-dark-blue-500 transition-colors space-x-3 mb-4;
 }
