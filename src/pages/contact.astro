@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { MdOutlineEmail } from 'react-icons/md';
 import { FiPhone } from 'react-icons/fi';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
 
 const EmailIcon = MdOutlineEmail;
 const PhoneIcon = FiPhone;
@@ -9,11 +10,13 @@ const PhoneIcon = FiPhone;
 
 <Layout>
   <section class="hero-section grid md:grid-cols-2 gap-8 px-6 md:px-16 py-16">
-    <div class="flex justify-center items-center">
-      <img
-        src="https://picsum.photos/650/450"
-        alt="Lorem Ipsum"
-        class="object-cover rounded-xl shadow-md w-full max-w-md md:max-w-full"
+    <div class="flex justify-center items-center" title="© Crédit photo : ">
+      <ImageWithPlaceholder
+        src="https://i.goopics.net/9mnabm.jpg"
+        width={650}
+        height={450}
+        alt="Un bénévole de l'association Code Rouge Info en intervention discute avec un pompier de la Sécurité Civile"
+        class="rounded-lg shadow-lg ring-1 ring-white/10"
       />
     </div>
 
