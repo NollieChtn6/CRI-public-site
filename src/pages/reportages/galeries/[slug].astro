@@ -1,0 +1,58 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
+import galleries from '@/data/galleries.json';
+import type { GalleryInterface } from '@/@types/types';
+
+import { IoIosArrowBack } from 'react-icons/io';
+import GalleryWithCarousel from '@/components/pictures/GalleryWithCarousel.astro';
+
+const BackIcon = IoIosArrowBack;
+
+export async function getStaticPaths() {
+  return galleries.map((gallery) => ({
+    params: { slug: gallery.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+
+const gallery = (galleries as GalleryInterface[]).find((g) => g.slug === slug);
+
+if (!gallery) {
+  throw new Error(`Gallery not found: ${slug}`);
+}
+---
+
+<Layout>
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4 max-w-3xl mx-auto">
+      <h1 class="text-4xl sm:text-5xl font-bold text-red-500">
+        {gallery.title}
+      </h1>
+
+      <p class="text-lg text-shark-200">
+        {gallery.description}
+      </p>
+    </header>
+
+    {
+      gallery.pictures?.length > 0 && (
+        <section class="mt-6">
+          <GalleryWithCarousel
+            pictures={gallery.pictures}
+            class="rounded-xl shadow-md"
+            type="gallery"
+          />
+        </section>
+      )
+    }
+
+    <div class="flex justify-center pt-8">
+      <a href="/reportages/galeries" class="back-button">
+        <BackIcon />
+        <span>Retour aux galeries</span>
+      </a>
+    </div>
+  </section>
+</Layout>

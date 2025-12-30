@@ -19,6 +19,13 @@ export default function PhotoLightbox({
   const [currentIndex, setCurrentIndex] = useState(startIndex);
 
   useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, []);
+
+  useEffect(() => {
     if (!emblaApi) return;
 
     const onSelect = () => {
@@ -66,15 +73,14 @@ export default function PhotoLightbox({
       <div className="overflow-hidden w-full max-w-5xl" ref={emblaRef}>
         <div className="flex">
           {pictures.map((picture, _i) => (
-            <div
-              key={picture.url}
-              className="flex-[0_0_100%] flex justify-center hover:cursor-pointer"
-            >
-              <img
-                src={picture.url}
-                alt={picture.alt}
-                className="max-h-[80vh] object-contain rounded-lg"
-              />
+            <div key={picture.url} className="flex-[0_0_100%] flex justify-center">
+              <div className="rounded-lg overflow-hidden max-h-[60vh]">
+                <img
+                  src={picture.url}
+                  alt={picture.alt}
+                  className="w-auto max-h-[60vh] object-contain"
+                />
+              </div>
             </div>
           ))}
         </div>

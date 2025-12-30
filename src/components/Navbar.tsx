@@ -44,6 +44,11 @@ export const NAV_LINKS: SectionInterface[] = [
         path: "dangers",
         description: "Retrouvez des informations de sensibilisation.",
       },
+      {
+        label: "Articles",
+        path: "articles",
+        description: "Nos articles de prévention et de conseils.",
+      },
     ],
   },
   {

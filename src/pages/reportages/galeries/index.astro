@@ -1,7 +1,10 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import type { GalleryInterface } from '@/@types/types';
 import galleries from '@/data/galleries.json';
-import GalleryItem from '@/components/galleries/GalleryItem.astro';
+import GalleryCard from '@/components/galleries/GalleryCard.astro';
+
+const galleryList: GalleryInterface[] = galleries;
 ---
 
 <Layout>
@@ -18,8 +21,18 @@ import GalleryItem from '@/components/galleries/GalleryItem.astro';
       </p>
     </header>
 
-    <section class="space-y-10">
-      {galleries.map((gallery) => <GalleryItem {...gallery} />)}
-    </section>
+    {
+      galleryList.length === 0 ? (
+        <p class="text-shark-300 text-center">
+          Aucune galerie disponible pour le moment.
+        </p>
+      ) : (
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {galleryList.map((gallery) => (
+            <GalleryCard gallery={gallery} />
+          ))}
+        </section>
+      )
+    }
   </section>
 </Layout>
