@@ -3,9 +3,9 @@ import Layout from '@/layouts/Layout.astro';
 import ArticleItem from '@/components/articles/ArticleItem.astro';
 import articles from '@/data/articles.json';
 
-const sortedArticles = articles.sort(
-  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-);
+const sortedArticles = [...articles]
+  .filter((article) => article.tags && !article.tags.includes('prévention'))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 ---
 
 <Layout>
@@ -19,20 +19,18 @@ const sortedArticles = articles.sort(
       </p>
     </header>
 
-    <section class="space-y-8">
-      {
-        sortedArticles.map((article) => (
-          <ArticleItem
-            title={article.title}
-            slug={article.slug}
-            authors={article.authors}
-            date={article.date}
-            summary={article.summary}
-            coverPictureUrl={article.coverPictureUrl}
-            coverPictureAlt={article.coverPictureAlt}
-          />
-        ))
-      }
-    </section>
+    {
+      sortedArticles.length === 0 ? (
+        <p class="text-shark-300 text-center">
+          Aucun article publié pour le moment.
+        </p>
+      ) : (
+        <section class="space-y-8">
+          {sortedArticles.map((article) => (
+            <ArticleItem article={article} section="reportages" />
+          ))}
+        </section>
+      )
+    }
   </div>
 </Layout>
