@@ -1,0 +1,41 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ArticleItem from '@/components/articles/ArticleItem.astro';
+import articles from '@/data/articles.json';
+
+if (!articles) {
+  throw new Error('Articles data not found');
+}
+
+const sortedArticles = [...articles]
+  .filter((article) => article.tags && article.tags.includes('prévention'))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 6);
+---
+
+<Layout>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <header class="text-center space-y-4">
+      <h1 class="text-4xl font-bold text-red-500">Articles</h1>
+      <p class="text-shark-200 text-lg sm:text-xl max-w-3xl mx-auto">
+        Retrouvez l&rsquo;ensemble de nos articles consacrés à la prévention et
+        aux bonnes pratiques pour assurer votre sécurité et celle de vos
+        proches.
+      </p>
+    </header>
+
+    {
+      sortedArticles.length === 0 ? (
+        <p class="text-shark-300 text-center">
+          Aucun article publié pour le moment.
+        </p>
+      ) : (
+        <section class="space-y-8">
+          {sortedArticles.map((article) => (
+            <ArticleItem article={article} section="prevention" />
+          ))}
+        </section>
+      )
+    }
+  </div>
+</Layout>
