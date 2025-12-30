@@ -20,7 +20,7 @@ const authorsList = article.authors.join(', ');
 ---
 
 <article
-  class="flex flex-col md:flex-row gap-6 bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden md:h-64"
+  class="flex flex-col md:flex-row gap-6 bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden md:h-68"
 >
   <div class="md:w-1/3 shrink-0">
     <img
@@ -41,7 +41,7 @@ const authorsList = article.authors.join(', ');
         Publié le&nbsp;: {formatDate(article.date)}
       </p>
 
-      <p class="text-sm text-shark-200 line-clamp-3">
+      <p class="text-xs text-shark-200 line-clamp-3">
         {article.summary}
       </p>
     </div>
