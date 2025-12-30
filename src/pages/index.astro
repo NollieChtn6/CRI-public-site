@@ -1,8 +1,19 @@
 ---
 import PublicationsSection from '@/components/PublicationsSection.astro';
-import GalleriesSection from '@/components/GalleriesSection.astro';
 import Layout from '../layouts/Layout.astro';
 import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
+
+import articles from '@/data/articles.json';
+
+const latestArticles = [...articles]
+  .filter((article) => article.tags && article.tags.includes('reportages'))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 6);
+
+const preventionArticles = [...articles]
+  .filter((article) => article.tags && article.tags.includes('prévention'))
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 6);
 ---
 
 <Layout>
@@ -40,6 +51,14 @@ import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
     </div>
   </section>
 
-  <PublicationsSection />
-  <GalleriesSection />
+  <PublicationsSection
+    title="Prévention — Feux de forêts"
+    articles={preventionArticles}
+    section="prevention"
+  />
+  <PublicationsSection
+    title="Nos reportages"
+    articles={latestArticles}
+    section="reportages"
+  />
 </Layout>
