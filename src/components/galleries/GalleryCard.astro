@@ -1,0 +1,52 @@
+---
+import type { GalleryInterface } from '@/@types/types';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
+import { IoArrowForward } from 'react-icons/io5';
+
+const ArrowIcon = IoArrowForward;
+
+const { gallery } = Astro.props as {
+  gallery: GalleryInterface;
+};
+
+if (!gallery) {
+  throw new Error('gallery prop is required for GalleryCard component');
+}
+
+const coverImage = gallery.pictures?.[0];
+---
+
+<article
+  class="group bg-shark-900 rounded-xl overflow-hidden shadow-lg shadow-black/40 transition hover:shadow-black/60"
+>
+  <div class="block h-full">
+    {
+      coverImage && (
+        <ImageWithPlaceholder
+          src={coverImage.url}
+          alt={coverImage.alt || gallery.title}
+          width={1200}
+          height={800}
+          class="h-56 w-full object-cover"
+        />
+      )
+    }
+
+    <div class="p-5 space-y-6">
+      <h3 class="text-xl font-semibold text-shark-50">
+        {gallery.title}
+      </h3>
+
+      <p class="text-sm text-shark-300 line-clamp-3">
+        {gallery.description}
+      </p>
+
+      <div class="flex justify-end">
+        <a href={`/reportages/galeries/${gallery.slug}`} class="cta-button">
+          <span>Voir la galerie</span>
+          <ArrowIcon />
+        </a>
+      </div>
+    </div>
+  </div>
+</article>

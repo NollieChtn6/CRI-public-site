@@ -1,0 +1,49 @@
+---
+import { formatDate } from '@/utils/formatDate';
+import { IoArrowForward } from 'react-icons/io5';
+import type { ArticleInterface } from '@/@types/types';
+import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
+
+const ArrowIcon = IoArrowForward;
+const { article, section } = Astro.props as {
+  article: ArticleInterface;
+  section: string;
+};
+
+if (!article) {
+  throw new Error('Article prop is required for ArticleCard component');
+}
+if (!section) {
+  throw new Error('section prop is required for ArticleCard component');
+}
+---
+
+<article
+  class="card bg-shark-900 text-shark-50 rounded-xl shadow-lg shadow-black/40 overflow-hidden"
+>
+  <ImageWithPlaceholder
+    src={article.coverPictureUrl}
+    alt={article.coverPictureAlt}
+    width={1500}
+    height={1000}
+    class="w-full h-52 object-cover rounded-t-xl"
+  />
+
+  <div class="p-4 md:p-6 space-y-2">
+    <h3 class="text-lg md:text-xl font-semibold line-clamp-2">
+      {article.title}
+    </h3>
+    <p class="text-sm text-shark-300">Publié le {formatDate(article.date)}</p>
+    <p class="text-sm text-shark-200 line-clamp-3">{article.summary}</p>
+  </div>
+
+  <div class="flex justify-end p-4 md:p-6">
+    <a
+      href={`/${section}/articles/${article.slug}`}
+      class="cta-button bg-red-orange-500 hover:bg-red-orange-600 text-shark-50"
+    >
+      <span>Lire la suite</span>
+      <ArrowIcon />
+    </a>
+  </div>
+</article>
