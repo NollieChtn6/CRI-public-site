@@ -58,12 +58,32 @@ export const NAV_LINKS: SectionInterface[] = [
       {
         label: "Articles",
         path: "articles",
-        description: "Découvrez les activités de notre association.",
+        description: "Plongée au cœur de la vie et des actions de notre association.",
       },
       {
         label: "Sapeurs-pompiers",
         path: "galeries/sapeurs-pompiers",
-        description: "Nos reportages sur les sapeurs-pompiers.",
+        description: "L'engagement et le courage des sapeurs-pompiers en intervention.",
+      },
+      {
+        label: "AASC",
+        path: "galeries/aasc",
+        description: "Les acteurs de l'assistance et du secours sur le terrain.",
+      },
+      {
+        label: "Défense",
+        path: "galeries/defense",
+        description: "Des images rares au plus près des forces de la Défense.",
+      },
+      {
+        label: "Forces de l'ordre",
+        path: "galeries/forces-de-l-ordre",
+        description: "Le quotidien des forces de l'ordre au service de la sécurité.",
+      },
+      {
+        label: "SAMU/SMUR",
+        path: "galeries/samu-smur",
+        description: "L'urgence médicale capturée au cœur de l'action.",
       },
     ],
   },
