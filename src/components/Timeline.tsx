@@ -21,7 +21,7 @@ export default function Timeline() {
 
           {(milestones as YearEntry[]).map((yearEntry) => (
             <>
-              <h3 className="text-2xl font-bold text-shark-50 mb-6 -translate-x-20">
+              <h3 className="text-2xl font-bold text-shark-50 mb-6 -translate-x-15 lg:-translate-x-20">
                 {yearEntry.year}
               </h3>
               <div key={yearEntry.year} className="mb-12">
@@ -33,7 +33,7 @@ export default function Timeline() {
                     (PiIcons as { [key: string]: IconType })[event.iconName];
 
                   return (
-                    <div key={event.id} className="relative mb-10 pl-8">
+                    <div key={event.id} className="relative mb-10 pl-8 space-y-4">
                       <div className="flex relative z-10 items-center space-y-4">
                         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-orange-500 text-shark-50 shadow ring-[1.5px] ring-shark-50 -translate-x-4/5">
                           {IconComponent && <IconComponent className="h-5 w-5" />}

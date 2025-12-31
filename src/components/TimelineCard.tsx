@@ -7,7 +7,7 @@ interface TimelineCardProps {
 
 export default function TimelineCard({ event }: TimelineCardProps) {
   return (
-    <Card>
+    <Card className="translate-x-10">
       <CardContent>
         <p>{event.text}</p>
       </CardContent>
