@@ -8,7 +8,7 @@ import MSASafety from "@/assets/partners/logo_MSA.svg";
 import ProtectionCivileSL from "@/assets/partners/logo_Protection_civile_Saone_et_Loire.png";
 import SecoursExpo from "@/assets/partners/logo_Secours_Expo.png";
 import FedeCroixBlanche from "@/assets/partners/logo_SF_Croix_Blanche.png";
-import StandBy from "@/assets/partners/logo_StandBy.svg";
+import StandBy from "@/assets/partners/logo_Standby.svg";
 
 export interface PartnerInterface {
   id: string;
