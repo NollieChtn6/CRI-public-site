@@ -35,14 +35,14 @@ export const NAV_LINKS: SectionInterface[] = [
     path: "prevention",
     pages: [
       {
-        label: "Bonnes pratiques",
-        path: "bonnes-pratiques",
-        description: "Des conseils pour une meilleure prévention.",
-      },
-      {
         label: "Dangers",
         path: "dangers",
         description: "Retrouvez des informations de sensibilisation.",
+      },
+      {
+        label: "Bonnes pratiques",
+        path: "bonnes-pratiques",
+        description: "Des conseils pour une meilleure prévention.",
       },
       {
         label: "Articles",
