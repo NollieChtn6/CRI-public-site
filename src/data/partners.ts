@@ -1,14 +1,14 @@
-import BalyTech from "./../assets/partners/logo_BalyTech.png";
-import CHBourgEnBresse from "./../assets/partners/logo_CH_Bourg_En_Bresse.png";
-import CHWilliamMorrey from "./../assets/partners/logo_CH_William_Morey.png";
-import ExtractionChallenge from "./../assets/partners/logo_Extraction_Challenge.png";
-import InfoChalon from "./../assets/partners/logo_Info_Chalon.svg";
-import Instavox from "./../assets/partners/logo_Instavox.png";
-import MSASafety from "./../assets/partners/logo_MSA.svg";
-import ProtectionCivileSL from "./../assets/partners/logo_Protection_civile_Saone_et_Loire.png";
-import SecoursExpo from "./../assets/partners/logo_Secours_Expo.png";
-import FedeCroixBlanche from "./../assets/partners/logo_SF_Croix_Blanche.png";
-import StandBy from "./../assets/partners/logo_StandBy.svg";
+import BalyTech from "@/assets//partners/logo_BalyTech.png";
+import CHBourgEnBresse from "@/assets//partners/logo_CH_Bourg_En_Bresse.png";
+import CHWilliamMorrey from "@/assets//partners/logo_CH_William_Morey.png";
+import ExtractionChallenge from "@/assets//partners/logo_Extraction_Challenge.png";
+import InfoChalon from "@/assets//partners/logo_Info_Chalon.svg";
+import Instavox from "@/assets//partners/logo_Instavox.png";
+import MSASafety from "@/assets//partners/logo_MSA.svg";
+import ProtectionCivileSL from "@/assets//partners/logo_Protection_civile_Saone_et_Loire.png";
+import SecoursExpo from "@/assets//partners/logo_Secours_Expo.png";
+import FedeCroixBlanche from "@/assets//partners/logo_SF_Croix_Blanche.png";
+import StandBy from "@/assets//partners/logo_StandBy.svg";
 
 export interface PartnerInterface {
   id: string;
