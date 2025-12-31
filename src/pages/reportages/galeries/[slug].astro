@@ -16,6 +16,9 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
+if (!slug || slug.includes('.')) {
+  return new Response(null, { status: 404 });
+}
 
 const gallery = (galleries as GalleryInterface[]).find((g) => g.slug === slug);
 
