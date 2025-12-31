@@ -844,58 +844,49 @@
       }
     ]
   },
-
-
-
-
-
-
-
-
-
-
-    {
-    "id":"2016-08-12-prevention-depart-de-feu-rognac-13",
-    "title":"Test article prévention",
-    "slug":"2016-08-12-prevention-depart-de-feu-rognac-13",
-    "authors":[
-      "Romain Bruneau"
-    ],
-    "tags": ["reportages", "prévention"],
-    "date":"2016-08-12",
-    "summary":"En début d'après-midi, peu après le feu de forêt de Fos-sur-Mer, un départ de feu est signalé en pleine pinède à Rognac.",
-    "coverPictureUrl":"https://i.goopics.net/bteqvd.jpg",
-    "coverPictureAlt":"Un Canadair survole la zone de l'incendie en largant de l'eau",
-    "content":"Avec le mistral, le feu s'est rapidement étendu sur Vitrolles, poussant les habitants de certains quartiers à évacuer. Actuellement, le feu a consumé plus de 1 000 hectares ; un panache de fumée est visible depuis tout le département, plongeant par la même occasion Marseille dans l'obscurité.\nDes renforts extra-départementaux sont présents ainsi que 2 Canadairs, 3 Trackers et 1 Dash8.\nLes habitations aux alentours sont en cours d'évacuation.",
-    "pictures":[
-      {
-        "url":"https://i.goopics.net/vxhjpb.jpg",
-        "alt":"Les flammes dévorent la pinède"
-      },
-      {
-        "url":"https://i.goopics.net/1kjxiy.jpg",
-        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
-      },
-      {
-        "url":"https://i.goopics.net/bteqvd.jpg",
-        "alt":"Un Canadair survole la zone de l'incendie en largant de l'eau"
-      },
-      {
-        "url":"https://i.goopics.net/cl396e.jpg",
-        "alt":"Un avion de la sécurité civile largue du retardant sur l'incendie"
-      },
-      {
-        "url":"https://i.goopics.net/drv5mu.jpg",
-        "alt":"Un hélicoptère de la sécurité civile survole la zone de l'incendie"
-      },
-      {
-        "url":"https://i.goopics.net/t616ly.jpg",
-        "alt":"Les flammes dévorent la pinède"
-      },
-      {
-        "url":"https://i.goopics.net/q9tyv5.jpg",
-        "alt":"Le plateau de Rognac et de Vitrolles sous un épais nuage de fumée noire"
-      }
-    ]
-  }
+  {
+  "id": "2019-04-16-incendie-notre-dame",
+  "title": "Incendie de Notre-Dame de Paris",
+  "slug": "2019-04-16-incendie-notre-dame",
+  "authors": [
+    "Stefan Amarica"
+  ],
+  "tags": ["reportages"],
+  "date": "2019-04-16",
+  "summary": "Retour en images sur l'incendie de la Cathédrale Notre-Dame de Paris.",
+  "coverPictureUrl": "https://i.goopics.net/ucd2t7.jpg",
+  "coverPictureAlt": "",
+  "content": "Le 15 avril 2019 en fin de journée, un incendie majeur s'est déclaré au cœur de la cathédrale Notre-Dame de Paris, provoquant l'effondrement de sa flèche et d'importants dégâts sur la toiture. Des centaines de sapeurs-pompiers ont été mobilisés pour contenir le sinistre et préserver les structures emblématiques de l'édifice.",
+  "pictures": [
+    { "url": "https://i.goopics.net/yso5c7.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/73didx.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/comrr4.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/l5isxd.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/c6ys4s.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/wyshs8.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/r66mj8.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/exjpf4.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/xmyr1v.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/0phnwv.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/jrb0di.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/o7ov4q.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/fzkicz.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/cfjtby.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/0ia7m9.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/a8p15r.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/zhbhe6.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/8q437y.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/5gqwzu.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/q5b7se.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/q9tjio.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/vuahji.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/d4ri4t.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/wvqy9r.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/xkc1az.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/uwp1ma.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/3ub74o.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/t4kxyh.jpg", "alt": "" },
+    { "url": "https://i.goopics.net/bpo1fm.jpg", "alt": "" }
+  ]
+}
 ]
