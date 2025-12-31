@@ -1,5 +1,5 @@
 import BalyTech from "@/assets/partners/logo_BalyTech.png";
-import CHBourgEnBresse from "@/assets/partners/logo_CH_Bourg_En_Bresse.png";
+import CHBourgEnBresse from "@/assets/partners/logo_CH_Bourg_en_Bresse.png";
 import CHWilliamMorrey from "@/assets/partners/logo_CH_William_Morey.png";
 import ExtractionChallenge from "@/assets/partners/logo_Extraction_Challenge.png";
 import InfoChalon from "@/assets/partners/logo_Info_Chalon.svg";
