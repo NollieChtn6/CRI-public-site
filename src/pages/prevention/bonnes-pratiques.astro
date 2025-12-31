@@ -179,7 +179,6 @@ const ExternalLinkIcon = HiOutlineExternalLink;
       <h2 class="text-2xl font-semibold text-turbo-400">
         Que faire en cas d&rsquo;urgence&nbsp;?
       </h2>
-
       <div class="flex justify-center">
         <img
           src="https://i.goopics.net/ophmkl.jpg"
@@ -188,95 +187,103 @@ const ExternalLinkIcon = HiOutlineExternalLink;
         />
       </div>
 
-      <div class="grid gap-6 sm:grid-cols-3">
-        <div
-          class="bg-linear-to-b from-red-800/20 to-red-600/20 border border-red-600/30 rounded-2xl p-6 shadow-lg"
-        >
-          <h3 class="font-bold text-lg mb-2 text-red-500">1 - Appelez</h3>
-          <p class="text-2xl font-extrabold tracking-wide text-shark-100">
-            18 • 112 • 114
+      <div
+        class="bg-shark-900 border-l-4 border-red-500 shadow-md rounded-2xl p-6 sm:p-8 space-y-4"
+      >
+        <h3 class="text-xl font-semibold text-red-orange-500">
+          En cas d&rsquo;incendie
+        </h3>
+
+        <div class="grid gap-6 sm:grid-cols-3">
+          <div
+            class="bg-linear-to-b from-red-800/20 to-red-600/20 border border-red-600/30 rounded-2xl p-6 shadow-lg"
+          >
+            <h3 class="font-bold text-lg mb-2 text-red-500">1 - Appelez</h3>
+            <p class="text-2xl font-extrabold tracking-wide text-shark-100">
+              18 • 112 • 114
+            </p>
+            <p class="text-sm text-shark-300 mt-2">
+              Pompiers • Urgences • Sourds et malentendants
+            </p>
+          </div>
+
+          <div
+            class="bg-linear-to-b from-turbo-900/20 to-turbo-600/20 border border-turbo-700/30 rounded-2xl p-6 shadow-md"
+          >
+            <h3 class="font-bold text-lg mb-2 text-turbo-400">
+              2 - Confinez-vous
+            </h3>
+            <p class="text-shark-200">
+              Restez dans votre habitation et fermez les ouvertures
+            </p>
+          </div>
+
+          <div
+            class="bg-linear-to-b from-dark-blue-900/20 to-dark-blue-600/20 border border-dark-blue-700/30 rounded-2xl p-6 shadow-md"
+          >
+            <h3 class="font-bold text-lg mb-2 text-dark-blue-300">
+              3 - Informez-vous
+            </h3>
+            <p class="text-shark-200">
+              Suivez les consignes des autorités locales
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-shark-900 border-l-4 border-red-500 shadow-md rounded-2xl p-6 sm:p-8 space-y-4"
+      >
+        <h3 class="text-xl font-semibold text-red-orange-500">
+          En cas d&rsquo;urgence en forêt
+        </h3>
+
+        <p class="text-shark-200">
+          Des points de rencontres en forêt PRSF ou DFCI sont partagés avec les
+          services de secours. Vous trouverez leurs numéros et coordonnées dans
+          l&rsquo;application mobile PRS. Notez les plus proches avant toute
+          sortie en forêt&nbsp;!
+        </p>
+
+        <div class="space-y-3">
+          <p class="text-shark-300 text-sm">
+            Télécharger l&rsquo;application &nbsp;:
           </p>
-          <p class="text-sm text-shark-300 mt-2">
-            Pompiers • Urgences • Sourds et malentendants
-          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="https://play.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-button"
+            >
+              <span>Google Play</span>
+              <ExternalLinkIcon />
+            </a>
+
+            <a
+              href="https://www.apple.com/app-store/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-button"
+            >
+              <span>App Store</span>
+              <ExternalLinkIcon />
+            </a>
+          </div>
         </div>
 
-        <div
-          class="bg-linear-to-b from-turbo-900/20 to-turbo-600/20 border border-turbo-700/30 rounded-2xl p-6 shadow-md"
-        >
-          <h3 class="font-bold text-lg mb-2 text-turbo-400">
-            2 - Confinez-vous
-          </h3>
-          <p class="text-shark-200">
-            Restez dans votre habitation et fermez les ouvertures
-          </p>
-        </div>
-
-        <div
-          class="bg-linear-to-b from-dark-blue-900/20 to-dark-blue-600/20 border border-dark-blue-700/30 rounded-2xl p-6 shadow-md"
-        >
-          <h3 class="font-bold text-lg mb-2 text-dark-blue-300">
-            3 - Informez-vous
-          </h3>
-          <p class="text-shark-200">
-            Suivez les consignes des autorités locales
-          </p>
+        <div class="pt-4 border-t border-shark-700">
+          <a
+            href="https://www.geoportail.gouv.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta-button w-fit"
+          >
+            <span>Consulter le Géoportail IGN</span>
+            <ExternalLinkIcon />
+          </a>
         </div>
       </div>
     </section>
-    <div
-      class="bg-shark-900 border-l-4 border-red-500 shadow-md rounded-2xl p-6 sm:p-8 space-y-4"
-    >
-      <h3 class="text-xl font-semibold text-red-orange-500">
-        En cas d&rsquo;urgence en forêt
-      </h3>
-
-      <p class="text-shark-200">
-        Des points de rencontres en forêt PRSF ou DFCI sont partagés avec les
-        services de secours. Vous trouverez leurs numéros et coordonnées dans
-        l&rsquo;application mobile PRS. Notez les plus proches avant toute
-        sortie en forêt&nbsp;!
-      </p>
-
-      <div class="space-y-3">
-        <p class="text-shark-300 text-sm">
-          Télécharger l&rsquo;application &nbsp;:
-        </p>
-
-        <div class="flex flex-wrap gap-4">
-          <a
-            href="https://play.google.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="cta-button"
-          >
-            <span>Google Play</span>
-            <ExternalLinkIcon />
-          </a>
-
-          <a
-            href="https://www.apple.com/app-store/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="cta-button"
-          >
-            <span>App Store</span>
-            <ExternalLinkIcon />
-          </a>
-        </div>
-      </div>
-
-      <div class="pt-4 border-t border-shark-700">
-        <a
-          href="https://www.geoportail.gouv.fr/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="cta-button w-fit"
-        >
-          <span>Consulter le Géoportail IGN</span>
-          <ExternalLinkIcon />
-        </a>
-      </div>
-    </div>
   </section>
 </Layout>
