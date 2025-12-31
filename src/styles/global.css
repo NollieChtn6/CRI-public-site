@@ -243,7 +243,7 @@
 }
 
 .cta-button {
-  @apply bg-red-orange-500 hover:bg-red-orange-600 text-shark-100 inline-flex items-center gap-2 px-4 py-2 rounded-md shadow transition-all hover:scale-105 hover:cursor-pointer;
+  @apply no-underline bg-red-orange-500 hover:bg-red-orange-600 text-shark-100 inline-flex items-center gap-2 px-4 py-2 rounded-md shadow transition-all hover:scale-105 hover:cursor-pointer;
 }
 
 .navbarLink {
