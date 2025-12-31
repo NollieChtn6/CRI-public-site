@@ -1,5 +1,3 @@
-import type { IconType } from "react-icons/lib";
-
 export interface SectionInterface {
   label: string;
   path: string;
@@ -46,18 +44,18 @@ export interface GalleryInterface {
   pictures: Picture[];
 }
 
-export interface TimelineCardProps {
+export interface TimelineEvent {
   id: string;
-  startDay: number | null;
-  startMonth: number | null;
-  startYear: number;
-  endDay: number | null;
-  endMonth: number | null;
-  endYear: number | null;
   title: string;
   text: string;
   iconName: string;
-  Icon?: IconType;
+  startDay?: number;
+  startMonth?: number;
+}
+
+export interface YearEntry {
+  year: number;
+  events: TimelineEvent[];
 }
 
 export interface MarkdownModule {

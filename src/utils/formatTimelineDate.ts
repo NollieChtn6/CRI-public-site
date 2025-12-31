@@ -1,5 +1,3 @@
-// src/utils/formatDate.ts
-
 const MONTHS = [
   "janvier",
   "février",
@@ -16,35 +14,23 @@ const MONTHS = [
 ];
 
 /**
- * Formate une date à partir de jours/mois/année.
+ * Formate une date à partir d'un événement timeline simplifié.
  * @param startDay Jour (optionnel)
  * @param startMonth Mois (1-12, optionnel)
  * @param startYear Année (obligatoire)
- * @param endDay Jour de fin (optionnel)
- * @param endMonth Mois de fin (optionnel)
- * @param endYear Année de fin (optionnel)
  * @returns Date formatée en chaîne
  */
 export function formatTimelineDate(
-  startDay: number | null,
-  startMonth: number | null,
-  startYear: number,
-  endDay: number | null,
-  endMonth: number | null,
-  endYear: number | null,
+  startDay?: number,
+  startMonth?: number,
+  startYear?: number,
 ): string {
-  const startMonthName = startMonth ? MONTHS[startMonth - 1] : null;
-  const endMonthName = endMonth ? MONTHS[endMonth - 1] : null;
+  if (!startYear) return "";
 
-  if (startMonthName) {
-    const start = startDay
-      ? `${startDay} ${startMonthName} ${startYear}`
-      : `${startMonthName} ${startYear}`;
-    if (endYear) {
-      const end = endDay && endMonthName ? `${endDay} ${endMonthName} ${endYear}` : `${endYear}`;
-      return `${start} - ${end}`;
-    }
-    return start;
-  }
-  return endYear ? `${startYear} - ${endYear}` : `${startYear}`;
+  const parts: string[] = [];
+  if (startDay) parts.push(String(startDay));
+  if (startMonth) parts.push(MONTHS[startMonth - 1]);
+  parts.push(String(startYear));
+
+  return parts.join(" ");
 }
