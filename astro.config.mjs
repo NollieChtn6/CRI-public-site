@@ -35,5 +35,7 @@ export default defineConfig({
   image:{
     domains: ["ch-chalon71.fr"]
   },
-  adapter: vercel()
+  adapter: vercel(
+    { imageService: true, }
+  )
 });
