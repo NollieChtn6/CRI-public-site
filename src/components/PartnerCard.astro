@@ -1,5 +1,6 @@
 ---
 import ImageWithPlaceholder from '@/atoms/ImageWithPlaceholder.astro';
+import { Image } from 'astro:assets';
 
 export interface PartnerCardProps {
   name: string;
@@ -14,11 +15,7 @@ const { name, website, logo } = Astro.props as PartnerCardProps;
   class="partner-card flex flex-col items-center text-center p-4 bg-shark-200 rounded-xl shadow-md shadow-black/40 hover:shadow-lg transition-shadow justify-between h-full min-h-48"
 >
   <div class="shrink-0 w-full h-24 flex items-center justify-center mb-4">
-    <ImageWithPlaceholder
-      src={logo}
-      alt={name}
-      class="object-contain max-h-full max-w-full"
-    />
+    <Image src={logo} alt={name} class="object-contain max-h-full max-w-full" />
   </div>
 
   <div class="mt-auto w-full h-full flex items-center justify-center">
