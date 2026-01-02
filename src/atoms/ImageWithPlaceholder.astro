@@ -2,35 +2,57 @@
 import { Image, getImage } from 'astro:assets';
 import placeholderSvg from '@/assets/image-placeholder.svg?raw';
 
-const { src, alt, width, height, class: className } = Astro.props;
-
-const shouldInfer = !width || !height;
-const optimizedImage = await getImage({
+const {
   src,
+  alt,
   width,
   height,
-  inferSize: shouldInfer
-});
-const ratio =
-  optimizedImage.attributes.width / optimizedImage.attributes.height;
+  class: className,
+  ratio = '3/2'
+} = Astro.props;
+const isRemote = typeof src === 'string';
+
+const shouldInfer = !width || !height;
+
+if (!isRemote) {
+  const optimizedImage = await getImage({
+    src,
+    width,
+    height,
+    inferSize: shouldInfer
+  });
+}
 
 // On prépare l'URL du SVG ici
 const svgDataUri = `data:image/svg+xml;utf8,${encodeURIComponent(placeholderSvg)}`;
 ---
 
 <div
-  class={`img-container relative bg-gray-100`}
-  style={`aspect-ratio: ${ratio}; background-image: url("${svgDataUri}");`}
+  class="img-container relative bg-gray-100"
+  style={ratio
+    ? `aspect-ratio: ${ratio}; background-image: url("${svgDataUri}");`
+    : ''}
 >
-  <Image
-    src={src}
-    alt={alt}
-    width={width}
-    height={height}
-    inferSize={shouldInfer}
-    class={`main-img opacity-0 transition-opacity duration-300 w-full h-full object-cover relative z-10 ${className}`}
-    onload="this.classList.add('is-visible'); this.parentElement.classList.add('is-loaded');"
-  />
+  {
+    isRemote ? (
+      <img
+        src={src}
+        alt={alt}
+        class={`main-img opacity-0 transition-opacity duration-300 w-full h-full object-cover ${className}`}
+        onload="this.classList.add('is-visible'); this.parentElement.classList.add('is-loaded');"
+      />
+    ) : (
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        inferSize={shouldInfer}
+        class={`main-img opacity-0 transition-opacity duration-300 w-full h-full object-cover relative z-10 ${className}`}
+        onload="this.classList.add('is-visible'); this.parentElement.classList.add('is-loaded');"
+      />
+    )
+  }
 
   <script is:inline>
     (function () {
