@@ -1,7 +1,7 @@
 ---
 id: "2025-10-22-debroussaillage-preventif"
 title: "Débroussaillez votre terrain dès maintenant pour éviter des feux durant l’été"
-summary: "L’automne et l’hiver sont les meilleures périodes pour débroussailler autour de votre habitation, et ainsi réduire les risques de propagation de feux estivaux. Les végétaux, qui ont perdu leurs feuilles, sont plus faciles à tailler ; et les coupes effectuées ne perturbent pas les cycles de reproduction de la faune et de la flore, qui ont lieu au printemps.."
+summary: "L’automne et l’hiver sont les meilleures périodes pour débroussailler autour de votre habitation, et ainsi réduire les risques de propagation de feux estivaux. Les végétaux, qui ont perdu leurs feuilles, sont plus faciles à tailler ; et les coupes effectuées ne perturbent pas les cycles de reproduction de la faune et de la flore, qui ont lieu au printemps."
 slug: "2025-10-22-debroussaillage-preventif"
 date: "2025-10-22"
 authors: ["Code Rouge Info"]
