@@ -16,12 +16,12 @@ export const NAV_LINKS: SectionInterface[] = [
       {
         label: "Partenaires",
         path: "partenaires",
-        description: "Les partenaires qui soutiennent notre mission.",
+        description: "Les partenaires qui soutiennent notre association.",
       },
       {
         label: "Recrutement",
         path: "recrutement",
-        description: "Rejoignez notre équipe en tant que bénévole.",
+        description: "Adhérez ou devenez bénévole.",
       },
       {
         label: "Nous soutenir",
@@ -37,7 +37,7 @@ export const NAV_LINKS: SectionInterface[] = [
       {
         label: "Dangers",
         path: "dangers",
-        description: "Retrouvez des informations de sensibilisation.",
+        description: "Les facteurs de risque pour les feux d'espaces naturels.",
       },
       {
         label: "Bonnes pratiques",
@@ -63,27 +63,27 @@ export const NAV_LINKS: SectionInterface[] = [
       {
         label: "Sapeurs-pompiers",
         path: "galeries/sapeurs-pompiers",
-        description: "L'engagement et le courage des sapeurs-pompiers en intervention.",
+        description: "Album thématique.",
       },
       {
         label: "AASC",
         path: "galeries/aasc",
-        description: "Les acteurs de l'assistance et du secours sur le terrain.",
+        description: "Album thématique.",
       },
       {
         label: "Défense",
         path: "galeries/defense",
-        description: "Des images rares au plus près des forces de la Défense.",
+        description: "Album thématique.",
       },
       {
         label: "Forces de l'ordre",
         path: "galeries/forces-de-l-ordre",
-        description: "Le quotidien des forces de l'ordre au service de la sécurité.",
+        description: "Album thématique.",
       },
       {
         label: "SAMU/SMUR",
         path: "galeries/samu-smur",
-        description: "L'urgence médicale capturée au cœur de l'action.",
+        description: "Album thématique.",
       },
     ],
   },
