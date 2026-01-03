@@ -1,6 +1,7 @@
 // @ts-check
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
+import rehypeExternalLinks from "rehype-external-links";
 
 import tailwindcss from "@tailwindcss/vite";
 
@@ -9,8 +10,21 @@ import path from "node:path";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()],
-
+  integrations: [
+    react(),
+  ],
+  markdown: {
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          target: "_blank",
+          rel: ["nofollow", "noopener", "noreferrer"],
+          content: { type: 'text', value: ' 🔗' }
+        },
+      ],
+    ],
+  },
   vite: {
     css: {
       transformer: "lightningcss",

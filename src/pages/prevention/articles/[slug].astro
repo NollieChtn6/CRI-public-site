@@ -6,6 +6,9 @@ import type { MarkdownModule } from '@/@types/types';
 export const prerender = true;
 const BackIcon = IoIosArrowBack;
 
+// How to open external links in a new tab with Astro Markdown: https://daniel.es/blog/astro-how-to-open-external-links-new-tabs/
+// How to add emoji to external links in Astro Markdown: https://docs.astro.build/fr/recipes/external-links/
+
 export async function getStaticPaths() {
   const modules: Record<string, MarkdownModule> = import.meta.glob(
     '@/data/prevention/*.md',
