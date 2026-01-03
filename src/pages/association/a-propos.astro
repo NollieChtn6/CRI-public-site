@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Timeline from '../../components/Timeline.tsx';
+import ZoomableImage from '@/components/ZoomableImage';
 ---
 
 <Layout>
@@ -34,10 +35,11 @@ import Timeline from '../../components/Timeline.tsx';
       </div>
 
       <div class="flex justify-center md:justify-end">
-        <img
+        <ZoomableImage
           src="/images/cri_structure.png"
           alt="Structure de l'association Code Rouge Info"
-          class="rounded-xl shadow-md max-h-96 object-contain"
+          className="rounded-xl shadow-md max-h-96 object-contain"
+          client:load
         />
       </div>
     </section>

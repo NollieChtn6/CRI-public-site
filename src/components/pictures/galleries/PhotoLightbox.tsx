@@ -55,7 +55,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-4 right-4 text-white text-2xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
+        className="absolute top-4 right-4 text-white text-2xl cursor-pointer hover:scale-105 transition-all ease-out duration-300"
         aria-label="Fermer"
       >
         <CloseIcon />
@@ -64,7 +64,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={() => emblaApi?.scrollPrev()}
-        className="absolute left-4 text-white text-4xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
+        className="absolute left-4 text-white text-4xl cursor-pointer hover:scale-105 transition-all ease-out duration-300"
         aria-label="Image précédente"
       >
         <IoChevronBack />
@@ -74,7 +74,7 @@ export default function PhotoLightbox({
         <div className="flex">
           {pictures.map((picture, _i) => (
             <div key={picture.url} className="flex-[0_0_100%] flex justify-center">
-              <div className="rounded-lg overflow-hidden max-h-[60vh]">
+              <div className="rounded-lg overflow-hidden max-h-[60vh] cursor-pointer">
                 <img
                   src={picture.url}
                   alt={picture.alt}
@@ -89,7 +89,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={() => emblaApi?.scrollNext()}
-        className="absolute right-4 text-white text-4xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
+        className="absolute right-4 text-white text-4xl cursor-pointer hover:scale-105 transition-all ease-out duration-300"
         aria-label="Image suivante"
       >
         <IoChevronForward />
