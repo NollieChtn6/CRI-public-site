@@ -55,7 +55,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={onClose}
-        className="absolute top-4 right-4 text-white text-2xl hover:cursor-pointer"
+        className="absolute top-4 right-4 text-white text-2xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
         aria-label="Fermer"
       >
         <CloseIcon />
@@ -64,7 +64,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={() => emblaApi?.scrollPrev()}
-        className="absolute left-4 text-white text-4xl hover:cursor-pointer"
+        className="absolute left-4 text-white text-4xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
         aria-label="Image précédente"
       >
         <IoChevronBack />
@@ -89,7 +89,7 @@ export default function PhotoLightbox({
       <button
         type="button"
         onClick={() => emblaApi?.scrollNext()}
-        className="absolute right-4 text-white text-4xl hover:cursor-pointer"
+        className="absolute right-4 text-white text-4xl hover:cursor-pointer hover:scale-105 transition-all transition-300"
         aria-label="Image suivante"
       >
         <IoChevronForward />
