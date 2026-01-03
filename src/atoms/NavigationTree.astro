@@ -50,9 +50,12 @@ const NAV_TREE: SectionInterface[] = [
   {
     NAV_TREE.map((section) => (
       <div class="flex flex-col space-y-2">
-        <h3 class="font-semibold text-sm uppercase tracking-wide">
+        <a
+          href={`/${section.path}`}
+          class="font-semibold text-sm uppercase tracking-wide"
+        >
           {convertToSmartApostrophe(section.label)}
-        </h3>
+        </a>
 
         {section.pages?.map((page) => (
           <a
