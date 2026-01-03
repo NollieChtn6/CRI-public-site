@@ -17,7 +17,7 @@ export default function HeroCarouselClient({ pictures }: { pictures: Picture[] }
         {pictures.map((picture) => (
           <div
             key={picture.url}
-            className="flex-[0_0_100%] relative cursor-pointer"
+            className="flex-[0_0_100%] relative cursor-pointer ring-2 ring-shark-800"
             title={` © Crédit photo : ${picture.author}`}
           >
             <img
