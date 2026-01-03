@@ -24,7 +24,7 @@
       {
         "id": "timeline-2016-creation-association",
         "title": "Déclaration de création de l'association",
-        "text": "Déclaration de création de l'association loi 1901 au RNA. L'association avait pour objet de porter une structure de presse consacrée au monde de l'urgence et du secours et de faire découvrir et promouvoir ces sujets auprès du grand public.",
+        "text": "Déclaration de création de l'association loi 1901 au RNA. L'association a pour objet de porter une structure de presse consacrée au monde de l'urgence et du secours et de faire découvrir et promouvoir ces sujets auprès du grand public.",
         "iconName": "FaRegBuilding"
       },
       {
@@ -47,8 +47,20 @@
       {
         "id": "timeline-2017-salons",
         "title": "Première couverture Milipol Paris",
-        "text": "Première couverture du salon Milipol Paris et convention de partenariat avec le Centre Hospitalier William Morey et Or-Equipement.",
+        "text": "Première couverture du salon Milipol Paris.",
         "iconName": "FaCalendarAlt"
+      },
+      {
+        "id": "timeline-2017-partenariats-equipements",
+        "title": "Partenariats équipements 2017",
+        "text": "Convention de partenariat avec Or-Equipement.",
+        "iconName": "FaHandshake"
+      },
+            {
+        "id": "timeline-2017-partenariats",
+        "title": "Partenariats 2017",
+        "text": "Conventions de partenariat avec le Centre Hospitalier William Morey.",
+        "iconName": "FaHandshake"
       }
     ]
   }, 
@@ -58,7 +70,7 @@
       {
         "id": "timeline-2018-modification-statuts",
         "title": "Modification statutaire",
-        "text": "L'association a modifié ses statuts pour inclure le soutien aux services de secours et actions de communication.",
+        "text": "L'association modifie ses statuts pour inclure le soutien aux services de secours et actions de communication.",
         "iconName": "FaCertificate"
       },
       {
@@ -74,9 +86,15 @@
     "events": [
       {
         "id": "timeline-2019-convention-partenariat-équipements",
-        "title": "Conventions de partenariat équipement",
-        "text": "Conventions de partenariat équipement avec HAIX, MSA Safety et le Centre Hospitalier de Bourg-en-Bresse.",
-        "iconName": "FaTools"
+        "title": "Partenariats équipements 2019",
+        "text": "Conventions de partenariat équipement avec HAIX et MSA Safety ",
+        "iconName": "FaHandshake"
+      },
+      {
+        "id": "timeline-2019-convention-partenariat-centre-hospitalier",
+        "title": "Partenariats 2019",
+        "text": "Conventions de partenariat avec le Centre Hospitalier de Bourg-en-Bresse.",
+        "iconName": "FaHandshake"
       }
     ]
   },
@@ -86,9 +104,9 @@
       {
         "id": "timeline-2020-couverture-uiisc",
         "title": "Couverture UIISC 7",
-        "text": "Couverture des Journées Portes Ouvertes et partenariat avec Ogma pour équiper nos bénévoles de masques lors de la crise sanitaire.",
+        "text": "Couverture des Journées Portes Ouvertes de l'Unité d'Instruction et d'Intervention de la Sécurité Civile 7 et partenariat avec Ogma pour équiper nos bénévoles de masques lors de la crise sanitaire.",
         "iconName": "PiFaceMask"
-      }
+      } 
     ]
   },
   {
@@ -97,8 +115,8 @@
       {
         "id": "imeline-2021-partenariats",
         "title": "Partenariats 2021",
-        "text": "Conventions avec Puy Du Fou, Croix-Rouge Haute-Savoie, Gendarmerie Nationale et exercice HULL-21.",
-        "iconName": "FaShieldAlt"
+        "text": "Conventions avec le Puy-du-Fou, la Croix-Rouge française de Haute-Savoie, la Gendarmerie Nationale de Haute-Savoie et lors de l'exercice HULL-21.",
+        "iconName": "FaHandshake"
       }
     ]
   },
@@ -107,7 +125,7 @@
     "events": [
       {
         "id": "ttimeline-2022-annecy",
-        "title": "Convention Centre Hospitalier Annecy Genevois",
+        "title": "Convention avec le Centre Hospitalier Annecy Genevois",
         "text": "Convention de reportage avec le Centre Hospitalier Annecy Genevois.",
         "iconName": "FaHospital"
       }
@@ -119,13 +137,13 @@
       {
         "id": "timeline-2023-reorientation",
         "title": "Nouvelle orientation de l'association",
-        "text": "L'association a élargi ses activités pour sensibiliser aux risques, promouvoir les acteurs de la Sécurité civile et valoriser leurs missions via la photographie et la vidéographie.",
+        "text": "L'association élargit ses activités pour sensibiliser aux feux d'espaces naturels, promouvoir les intervenants de la Sécurité Civile et de la Défense et valoriser leurs missions via la photographie et la vidéographie. Elle abandonne totalement son statut de structure de presse.",
         "iconName": "FaCamera"
       },
       {
         "id": "timeline-2023-partenariats",
         "title": "Partenariats 2023",
-        "text": "Conventions avec Gendarmerie Nationale Haute-Savoie, Fédération des Secouristes Français Croix Blanche, Police Nationale Chalon-sur-Saône, exercice ORION-21.",
+        "text": "Conventions avec la Gendarmerie Nationale de Haute-Savoie, la Fédération des Secouristes Français Croix Blanche, la Police Nationale de Chalon-sur-Saône, et lors de l'exercice ORION-21.",
         "iconName": "FaHandshake"
       }
     ]
@@ -134,10 +152,16 @@
     "year": 2024,
     "events": [
       {
+        "id": "timeline-2024-partenariats-equipements",
+        "title": "Partenariats équipements 2024",
+        "text": "Convention avec StandBy.",
+        "iconName": "FaHandshake"
+      },
+      {
         "id": "timeline-2024-partenariats",
         "title": "Partenariats 2024",
-        "text": "Conventions avec Protection Civile Saône-et-Loire et StandBy.",
-        "iconName": "FaUserShield"
+        "text": "Convention avec la Protection Civile de Saône-et-Loire.",
+        "iconName": "FaHandshake"
       }
     ]
   }
