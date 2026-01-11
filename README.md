@@ -2,7 +2,7 @@
 
 ![Logo de l'association Code Rouge Info](https://raw.githubusercontent.com/NollieChtn6/CRI-public-site/5a40cb265eb1b1ae0c058fd777654679596eef2b/public/images/logo-inline.svg)
 
-Date de mise à jour : 02/01/2026
+Date de mise à jour : 11/01/2026
 
 ## SOMMAIRE
 
@@ -208,7 +208,49 @@ Le site est accessible sur : <http://localhost:4321>
 
 ## 🌍 Déploiement du site
 
-🚧 En cours de préparation...
+### Nom de domaine
+
+Le nom de domaine `coderougeinfo.fr` est la propriété de l'association.
+
+Il permet d'accéder au site vitrine de l'association, mais également à d'autres applications (via les sous-domaines).
+
+### Déploiement sur Vercel
+
+Le site vitrine est aujourd'hui hébergé sur [Vercel](https://www.vercel.com), une plateforme moderne, performante et gratuite pour l'association.
+
+Pour que le domaine principal pointe vers le nouveau site, les DNS ont été mis à jour sur Hostinger pour référencer ceux de Vercel :
+
+- `A @ 216.198.79.1`
+- `CNAME www 9404e2c5c36d46b1.vercel-dns-017.com`
+
+Le site est maintenant accessible sur :
+
+- [www.coderougeinfo.fr](www.coderougeinfo.fr)
+- [coderougeinfo.fr](coderougeinfo.fr).
+
+⚠️ Les autres applications et sous-domaines restent hébergés sur Hostinger. Aucune interruption ou modification n'est pour le moment prévue pour ces services.
+
+### Environnements
+
+Pour assurer la sécurité et la continuité du service, le site dispose de deux environnements distincts :
+
+| Environnement | Branche Git | URL                                                                       |
+|---------------|-------------|---------------------------------------------------------------------------|
+|Test / Preview |`develop`    |[https://cri-public-site.vercel.app/](https://cri-public-site.vercel.app/) |
+|Production.    |`main`       |[www.coderougeinfo.fr](www.coderougeinfo.fr)                               |
+
+### Workflow recommandé
+
+- Développement des nouvelles fonctionnalités sur des branches spécifiques.
+- Merge dans la branche `develop` et déploiement automatique sur l'environnement de test (`preview`).
+- Vérification et validation des modifications par l'équipe.
+- Merge dans la branche `main` et déploiement automatique sur l'environnement de production [www.coderougeinfo.fr](www.coderougeinfo.fr).
+
+Ce workflow permet :
+
+- de tester et valider les modifications avant qu'elles ne soient publiques,
+- de réduire au maximum le risque d'interruption du site,
+- de garantir une continuité parfaite pour l'intranet et les autres services hébergés sur Hostinger.
 
 ## 🧾 Collaboration
 
@@ -243,7 +285,33 @@ Les tickets peuvent aussi être taggés par ordre de priorité : `Low` — `Medi
 
 ### Contributions
 
-🚧 En cours de préparation...
+Pour développer le site de manière organisée et sécurisée, nous utilisons Git et des branches dédiées. Cela permet de travailler simultanément sur plusieurs fonctionnalités ou corrections sans impacter la version en production.
+
+#### Étapes du workflow
+
+- Création d'une branche de travail :
+  - Toujours partir de la branche `develop`.
+  - Préfixer le nom de la branche en fonction du type de développement : `feature/` pour une nouvelle fonctionnalité, `fix/` pour la correction d'un bug, et `chore/` pour les tâches purement techniques et de maintenance.
+- Développement et commits :
+  - Les modifications sont réalisées sur la nouvelle branche de travail.
+  - Chaque étape importante est enregistrée via des commits clairs et descriptifs.
+- Pull Request (PR) vers `develop`
+  - Une fois le développement terminé, ouvrir une PR vers la branche `develop`,
+  - Compléter le template de la PR pour expliquer les changements, les tests effectués et les impacts possibles.
+- Validation et tests par l'association :
+  - Les modifications sont automatiquement déployées sur l'environnement de test (`preview`) pour que l'équipe puisse les valider.
+  - Les demandes de corrections et de modifications sont signalées dans le kanban mis en place pour le projet.
+  - Les retours sont intégrés directement sur la même branche si nécessaire.
+- Merge sur main et déploiement en production :
+  - Après validation, la PR est fusionnée dans la branche `main`.
+  - Le site est automatiquement mis à jour sur l'environnement de production.
+
+#### Avantages de ce workflow
+
+- Sécurité : aucune modification n'affecte directement le site en production.
+- Traçabilité : toutes les modifications sont documentées et visibles dans l'historique Git.
+- Collaboration fluide : plusieurs développeurs ou bénévoles peuvent travailler simultanément sur différentes fonctionnalités.
+- Tests simplifiés : les nouvelles fonctionnalités sont visibles sur l'environnement de test avant d'être publiées.
 
 ## 🧠 Choix techniques et trade-offs
 
