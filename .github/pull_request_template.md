@@ -14,6 +14,8 @@
 - [ ] 📝 Documentation
 - [ ] ♻️ Refactor / technical improvement
 
+- [ ] 🚀 Deployment
+
 ---
 
 ## 🔧 Changes
