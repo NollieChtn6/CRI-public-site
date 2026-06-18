@@ -2,7 +2,6 @@ import BalyTech from "@/assets/partners/logo_BalyTech.png";
 import CHBourgEnBresse from "@/assets/partners/logo_CH_Bourg_en_Bresse.png";
 import CHWilliamMorrey from "@/assets/partners/logo_CH_William_Morey.png";
 import ExtractionChallenge from "@/assets/partners/logo_Extraction_Challenge.png";
-import InfoChalon from "@/assets/partners/logo_Info_Chalon.svg";
 import Instavox from "@/assets/partners/logo_Instavox.png";
 import MSASafety from "@/assets/partners/logo_MSA.svg";
 import ProtectionCivileSL from "@/assets/partners/logo_Protection_civile_Saone_et_Loire.png";
@@ -59,12 +58,6 @@ export const partners: PartnerInterface[] = [
     name: "Extraction Challenge 2018",
     website: null,
     logo: ExtractionChallenge,
-  },
-  {
-    id: "info-chalon",
-    name: "Info-Chalon",
-    website: "https:/www.info-chalon.com/",
-    logo: InfoChalon,
   },
   {
     id: "msa-the-safety",
